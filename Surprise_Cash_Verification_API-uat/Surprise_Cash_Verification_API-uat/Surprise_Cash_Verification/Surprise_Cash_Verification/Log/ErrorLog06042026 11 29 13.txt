@@ -1,0 +1,86 @@
+2026-04-06 11:29:13.664 +05:30 [INF] User profile is available. Using 'C:\Users\DITNEOSOFT13755\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-06 11:29:13.769 +05:30 [WRN] The WebRootPath was not found: D:\Mounika Projects\SCV\SCV PMS UAT 26092025\Surprise_Cash_Verification_API-uat\Surprise_Cash_Verification\Surprise_Cash_Verification\wwwroot. Static files may be unavailable.
+2026-04-06 11:29:13.882 +05:30 [INF] Now listening on: http://localhost:7117
+2026-04-06 11:29:13.882 +05:30 [INF] Now listening on: http://localhost:5117
+2026-04-06 11:29:13.931 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-06 11:29:13.931 +05:30 [INF] Hosting environment: Development
+2026-04-06 11:29:13.932 +05:30 [INF] Content root path: D:\Mounika Projects\SCV\SCV PMS UAT 26092025\Surprise_Cash_Verification_API-uat\Surprise_Cash_Verification\Surprise_Cash_Verification
+2026-04-06 11:29:15.086 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/index.html - null null
+2026-04-06 11:29:15.445 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/index.html - 200 null text/html;charset=utf-8 368.1278ms
+2026-04-06 11:29:15.478 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-06 11:29:15.478 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/_vs/browserLink - null null
+2026-04-06 11:29:15.485 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 11.2305ms
+2026-04-06 11:29:15.524 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.7664ms
+2026-04-06 11:29:15.590 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/v1/swagger.json - null null
+2026-04-06 11:29:15.712 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.6982ms
+2026-04-06 11:29:29.788 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Admin/UpdateEmployee/61?encryptedRequest=Allow - null 0
+2026-04-06 11:29:29.791 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-04-06 11:29:29.865 +05:30 [INF] CORS policy execution failed.
+2026-04-06 11:29:29.865 +05:30 [INF] Request origin http://localhost:7117 does not have permission to access the resource.
+2026-04-06 11:29:29.893 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AdminController.UpdateEmployee (Surprise_Cash_Verification)'
+2026-04-06 11:29:29.910 +05:30 [INF] Route matched with {action = "UpdateEmployee", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateEmployee(Int32, System.String) on controller Surprise_Cash_Verification.Controllers.AdminController (Surprise_Cash_Verification).
+2026-04-06 11:29:30.144 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AdminController.UpdateEmployee (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-04-06 11:29:30.146 +05:30 [INF] UpdateEmployee Controller Started
+2026-04-06 11:29:30.148 +05:30 [INF] UpdateEmployeesAsync Service Started
+2026-04-06 11:29:33.531 +05:30 [INF] Executed DbCommand (140ms) [Parameters=[:id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "l"."ID", "l"."CREATED_ON", "l"."EMP_DESGN", "l"."EMP_DESGN_DESC", "l"."EMP_ID", "l"."LOCATION", "l"."LOCATION_DESC", "l"."STATUS", "l"."USER_TYPE"
+FROM "LOGIN_TYPE" "l"
+WHERE "l"."ID" = :id_0
+FETCH FIRST 1 ROWS ONLY
+2026-04-06 11:29:42.398 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[:p1='?' (DbType = Int32), :p0='?' (Size = 2000), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+UPDATE "LOGIN_TYPE" SET "STATUS" = :p0
+WHERE "ID" = :p1;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2026-04-06 11:29:42.488 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AdminController.UpdateEmployee (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 12339.2761ms.
+2026-04-06 11:29:42.490 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-06 11:29:42.496 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AdminController.UpdateEmployee (Surprise_Cash_Verification) in 12582.269ms
+2026-04-06 11:29:42.496 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AdminController.UpdateEmployee (Surprise_Cash_Verification)'
+2026-04-06 11:29:42.503 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Admin/UpdateEmployee/61?encryptedRequest=Allow - 200 null application/json; charset=utf-8 12715.8005ms
+2026-04-06 11:29:52.107 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Admin/GetAllLoginTypeCount - null null
+2026-04-06 11:29:52.108 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Admin/GetAllLoginTypes?pageNumber=1&pageSize=10 - null null
+2026-04-06 11:29:52.110 +05:30 [INF] CORS policy execution successful.
+2026-04-06 11:29:52.110 +05:30 [INF] CORS policy execution successful.
+2026-04-06 11:29:52.111 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Admin/GetAllLoginTypeCount - 204 null null 4.42ms
+2026-04-06 11:29:52.111 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Admin/GetAllLoginTypes?pageNumber=1&pageSize=10 - 204 null null 3.7175ms
+2026-04-06 11:29:52.113 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/Admin/GetAllLoginTypes?pageNumber=1&pageSize=10 - application/json; null
+2026-04-06 11:29:52.113 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/Admin/GetAllLoginTypeCount - application/json; null
+2026-04-06 11:29:52.200 +05:30 [INF] CORS policy execution successful.
+2026-04-06 11:29:52.200 +05:30 [INF] CORS policy execution successful.
+2026-04-06 11:29:52.204 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AdminController.GetAllLoginTypeCount (Surprise_Cash_Verification)'
+2026-04-06 11:29:52.204 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AdminController.GetAllLoginTypes (Surprise_Cash_Verification)'
+2026-04-06 11:29:52.208 +05:30 [INF] Route matched with {action = "GetAllLoginTypeCount", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllLoginTypeCount() on controller Surprise_Cash_Verification.Controllers.AdminController (Surprise_Cash_Verification).
+2026-04-06 11:29:52.208 +05:30 [INF] Route matched with {action = "GetAllLoginTypes", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllLoginTypes(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller Surprise_Cash_Verification.Controllers.AdminController (Surprise_Cash_Verification).
+2026-04-06 11:29:52.234 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AdminController.GetAllLoginTypes (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-04-06 11:29:52.234 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AdminController.GetAllLoginTypeCount (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-04-06 11:29:52.235 +05:30 [INF] GetAllLoginTypeCount Controller Started
+2026-04-06 11:29:52.235 +05:30 [INF] GetAllLoginTypes Controller Started
+2026-04-06 11:29:52.236 +05:30 [INF] GetAllLoginTypeCountAsync Service Started
+2026-04-06 11:29:52.237 +05:30 [INF] GetAllLoginTypesAsync Service Started, request pageNumber: 1, pageSize:10
+2026-04-06 11:29:52.260 +05:30 [INF] GetAllLoginTypesAsync Service Ended
+2026-04-06 11:29:52.324 +05:30 [INF] Executed DbCommand (45ms) [Parameters=[:p_0='?' (DbType = Int32), :p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "l"."ID", "l"."CREATED_ON", "l"."EMP_DESGN", "l"."EMP_DESGN_DESC", "l"."EMP_ID", "l"."LOCATION", "l"."LOCATION_DESC", "l"."STATUS", "l"."USER_TYPE"
+FROM "LOGIN_TYPE" "l"
+ORDER BY "l"."ID" DESC
+OFFSET :p_0 ROWS FETCH NEXT :p_1 ROWS ONLY
+2026-04-06 11:29:52.327 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AdminController.GetAllLoginTypes (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 92.2543ms.
+2026-04-06 11:29:52.331 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Surprise_Cash_Verification.Core.Tables.LOGIN_TYPE, Surprise_Cash_Verification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-06 11:29:52.339 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AdminController.GetAllLoginTypes (Surprise_Cash_Verification) in 130.8141ms
+2026-04-06 11:29:52.340 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AdminController.GetAllLoginTypes (Surprise_Cash_Verification)'
+2026-04-06 11:29:52.340 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/Admin/GetAllLoginTypes?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 226.6673ms
+2026-04-06 11:29:52.682 +05:30 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT COUNT(*)
+FROM "LOGIN_TYPE" "l"
+2026-04-06 11:29:52.684 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AdminController.GetAllLoginTypeCount (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 450.0317ms.
+2026-04-06 11:29:52.685 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2026-04-06 11:29:52.689 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AdminController.GetAllLoginTypeCount (Surprise_Cash_Verification) in 480.3195ms
+2026-04-06 11:29:52.689 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AdminController.GetAllLoginTypeCount (Surprise_Cash_Verification)'
+2026-04-06 11:29:52.690 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/Admin/GetAllLoginTypeCount - 200 null application/json; charset=utf-8 576.3479ms

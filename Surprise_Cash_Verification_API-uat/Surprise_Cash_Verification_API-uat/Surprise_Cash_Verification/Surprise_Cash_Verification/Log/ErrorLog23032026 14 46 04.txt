@@ -1,0 +1,161 @@
+2026-03-23 14:46:05.822 +05:30 [INF] User profile is available. Using 'C:\Users\DITNEOSOFT13755\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-23 14:46:06.120 +05:30 [WRN] The WebRootPath was not found: D:\Mounika Projects\SCV\SCV PMS UAT 26092025\Surprise_Cash_Verification_API-uat\Surprise_Cash_Verification\Surprise_Cash_Verification\wwwroot. Static files may be unavailable.
+2026-03-23 14:46:06.298 +05:30 [INF] Now listening on: http://localhost:7117
+2026-03-23 14:46:06.298 +05:30 [INF] Now listening on: http://localhost:5117
+2026-03-23 14:46:06.349 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-23 14:46:06.349 +05:30 [INF] Hosting environment: Development
+2026-03-23 14:46:06.349 +05:30 [INF] Content root path: D:\Mounika Projects\SCV\SCV PMS UAT 26092025\Surprise_Cash_Verification_API-uat\Surprise_Cash_Verification\Surprise_Cash_Verification
+2026-03-23 14:46:10.094 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger - null null
+2026-03-23 14:46:10.657 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger - 301 0 null 571.9719ms
+2026-03-23 14:46:10.662 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/index.html - null null
+2026-03-23 14:46:10.727 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/index.html - 200 null text/html;charset=utf-8 64.725ms
+2026-03-23 14:46:10.755 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/swagger-ui.css - null null
+2026-03-23 14:46:10.756 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/swagger-ui-bundle.js - null null
+2026-03-23 14:46:10.764 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-23 14:46:10.768 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-23 14:46:10.770 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/_vs/browserLink - null null
+2026-03-23 14:46:10.779 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 11.4911ms
+2026-03-23 14:46:10.862 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-03-23 14:46:10.862 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-03-23 14:46:10.862 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-03-23 14:46:10.864 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 104.7377ms
+2026-03-23 14:46:10.864 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 107.6413ms
+2026-03-23 14:46:10.864 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/swagger-ui.css - 200 144929 text/css 108.6013ms
+2026-03-23 14:46:10.872 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.2071ms
+2026-03-23 14:46:11.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/v1/swagger.json - null null
+2026-03-23 14:46:11.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/favicon-32x32.png - null null
+2026-03-23 14:46:11.123 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-03-23 14:46:11.123 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/favicon-32x32.png - 200 628 image/png 0.6521ms
+2026-03-23 14:46:11.194 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.083ms
+2026-03-23 14:46:12.971 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - null null
+2026-03-23 14:46:12.974 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-03-23 14:46:13.458 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:46:13.460 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - 204 null null 488.9257ms
+2026-03-23 14:46:13.478 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - application/json; null
+2026-03-23 14:46:13.615 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2026 11:45:11', Current time (UTC): '23-03-2026 09:16:13'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-03-23 14:46:13.679 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18-03-2026 11:45:11', Current time (UTC): '23-03-2026 09:16:13'.
+2026-03-23 14:46:13.679 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:46:13.683 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2026-03-23 14:46:13.715 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:46:13.737 +05:30 [INF] Route matched with {action = "GetQuestions", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetQuestions() on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:46:14.343 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:46:14.345 +05:30 [INF] GetQuestions Controller started
+2026-03-23 14:46:14.482 +05:30 [INF] GetQuestions Service started.
+2026-03-23 14:46:16.313 +05:30 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Answer], [l].[Question]
+FROM [login_question] AS [l]
+ORDER BY NEWID()
+2026-03-23 14:46:16.336 +05:30 [INF] Question retrieved successfully.
+2026-03-23 14:46:16.503 +05:30 [INF] Serialized question details.
+2026-03-23 14:46:16.505 +05:30 [INF] Question details encrypted successfully & GetQuestions Service Ended.
+2026-03-23 14:46:16.510 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2163.1134ms.
+2026-03-23 14:46:16.512 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:46:16.521 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) in 2779.7873ms
+2026-03-23 14:46:16.522 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:46:16.523 +05:30 [INF] Session started; Key:4b4e618d-15f2-b416-1060-df48117544e4, Id:93b22c0e-2cc8-4621-94cb-40c9e34debf3
+2026-03-23 14:46:16.528 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - 200 null application/json; charset=utf-8 3050.063ms
+2026-03-23 14:46:20.779 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - null null
+2026-03-23 14:46:20.785 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:46:20.786 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - 204 null null 6.555ms
+2026-03-23 14:46:20.788 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - application/json; null
+2026-03-23 14:46:20.789 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:46:20.794 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:46:20.795 +05:30 [INF] Route matched with {action = "GetQuestions", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetQuestions() on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:46:20.819 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:46:20.819 +05:30 [INF] GetQuestions Controller started
+2026-03-23 14:46:20.820 +05:30 [INF] GetQuestions Service started.
+2026-03-23 14:46:20.856 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Answer], [l].[Question]
+FROM [login_question] AS [l]
+ORDER BY NEWID()
+2026-03-23 14:46:20.856 +05:30 [INF] Question retrieved successfully.
+2026-03-23 14:46:20.856 +05:30 [INF] Serialized question details.
+2026-03-23 14:46:20.856 +05:30 [INF] Question details encrypted successfully & GetQuestions Service Ended.
+2026-03-23 14:46:20.857 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 37.2293ms.
+2026-03-23 14:46:20.857 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:46:20.857 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) in 62.4943ms
+2026-03-23 14:46:20.857 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:46:20.857 +05:30 [INF] Session started; Key:780a7ed4-b3c7-5e78-d4a1-f389ed4e2b27, Id:60d73e76-a217-a400-9f0c-f2a4a3198fba
+2026-03-23 14:46:20.858 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - 200 null application/json; charset=utf-8 69.1919ms
+2026-03-23 14:46:30.840 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/validateDomainUser - null null
+2026-03-23 14:46:30.841 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:46:30.841 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/validateDomainUser - 204 null null 0.7172ms
+2026-03-23 14:46:31.234 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Account/validateDomainUser - application/json 167
+2026-03-23 14:46:31.235 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:46:31.235 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification)'
+2026-03-23 14:46:31.245 +05:30 [INF] Route matched with {action = "validateDomainUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] validateDomainUser(Surprise_Cash_Verification.Mappers.DTO.UserRequest) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:46:31.281 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:46:31.282 +05:30 [INF] validateDomainUser Controller started
+2026-03-23 14:46:31.340 +05:30 [INF] validateUser Service started
+2026-03-23 14:46:31.340 +05:30 [INF] Decrypted user_id: 412929
+2026-03-23 14:46:31.340 +05:30 [INF] Captcha validation passed for user: 412929
+2026-03-23 14:46:31.342 +05:30 [INF] Sending request to AD API for user validation.
+2026-03-23 14:46:31.527 +05:30 [INF] Received response from AD API.
+2026-03-23 14:46:31.548 +05:30 [INF] User validation failed for user: 412929, Please check username and credentials.
+2026-03-23 14:46:31.548 +05:30 [INF] GetQuestions Service started.
+2026-03-23 14:46:31.623 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Answer], [l].[Question]
+FROM [login_question] AS [l]
+ORDER BY NEWID()
+2026-03-23 14:46:31.623 +05:30 [INF] Question retrieved successfully.
+2026-03-23 14:46:31.624 +05:30 [INF] Serialized question details.
+2026-03-23 14:46:31.624 +05:30 [INF] Question details encrypted successfully & GetQuestions Service Ended.
+2026-03-23 14:46:31.625 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 343.988ms.
+2026-03-23 14:46:31.625 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:46:31.625 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification) in 379.8191ms
+2026-03-23 14:46:31.625 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification)'
+2026-03-23 14:46:31.625 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Account/validateDomainUser - 200 null application/json; charset=utf-8 391.0844ms
+2026-03-23 14:46:31.633 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - null null
+2026-03-23 14:46:31.633 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:46:31.634 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - 204 null null 0.4038ms
+2026-03-23 14:46:31.634 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - application/json; null
+2026-03-23 14:46:31.634 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:46:31.635 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:46:31.635 +05:30 [INF] Route matched with {action = "GetQuestions", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetQuestions() on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:46:31.649 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:46:31.650 +05:30 [INF] GetQuestions Controller started
+2026-03-23 14:46:31.650 +05:30 [INF] GetQuestions Service started.
+2026-03-23 14:46:31.675 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Answer], [l].[Question]
+FROM [login_question] AS [l]
+ORDER BY NEWID()
+2026-03-23 14:46:31.675 +05:30 [INF] Question retrieved successfully.
+2026-03-23 14:46:31.675 +05:30 [INF] Serialized question details.
+2026-03-23 14:46:31.675 +05:30 [INF] Question details encrypted successfully & GetQuestions Service Ended.
+2026-03-23 14:46:31.676 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 25.945ms.
+2026-03-23 14:46:31.676 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:46:31.676 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) in 41.0095ms
+2026-03-23 14:46:31.676 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:46:31.676 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - 200 null application/json; charset=utf-8 42.2909ms
+2026-03-23 14:47:23.054 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - null null
+2026-03-23 14:47:23.057 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:47:23.058 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - 204 null null 9.682ms
+2026-03-23 14:47:23.061 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - application/json; null
+2026-03-23 14:47:23.061 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:47:23.061 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:47:23.061 +05:30 [INF] Route matched with {action = "GetQuestions", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetQuestions() on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:47:23.078 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:47:23.078 +05:30 [INF] GetQuestions Controller started
+2026-03-23 14:47:23.078 +05:30 [INF] GetQuestions Service started.
+2026-03-23 14:47:23.107 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Answer], [l].[Question]
+FROM [login_question] AS [l]
+ORDER BY NEWID()
+2026-03-23 14:47:23.107 +05:30 [INF] Question retrieved successfully.
+2026-03-23 14:47:23.107 +05:30 [INF] Serialized question details.
+2026-03-23 14:47:23.108 +05:30 [INF] Question details encrypted successfully & GetQuestions Service Ended.
+2026-03-23 14:47:23.108 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 29.3283ms.
+2026-03-23 14:47:23.108 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:47:23.108 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) in 46.7943ms
+2026-03-23 14:47:23.108 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:47:23.108 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - 200 null application/json; charset=utf-8 47.7261ms

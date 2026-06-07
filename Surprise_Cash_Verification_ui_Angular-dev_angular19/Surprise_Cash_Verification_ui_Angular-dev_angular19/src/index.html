@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SurpriseCashVerificationWebApplication</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <!-- <script>
+    (function () {
+      const REDIRECT_URL = './error.html';
+      const SIZE_THRESHOLD = 160;
+      const INTERVAL_MS = 800;
+
+      let redirected = false;
+
+      function doRedirect() {
+        if (redirected) return;
+        redirected = true;
+        try {
+          window.location.replace(REDIRECT_URL);
+        } catch (e) {
+          window.location.href = REDIRECT_URL;
+        }
+      }
+      function isDevToolsOpenBySize() {
+        try {
+          const widthDiff = window.outerWidth - window.innerWidth;
+          const heightDiff = window.outerHeight - window.innerHeight;
+          return widthDiff > SIZE_THRESHOLD || heightDiff > SIZE_THRESHOLD;
+        } catch (e) {
+          return false;
+        }
+      }
+
+      function isDevToolsOpenByDebugger() {
+        try {
+          const start = performance.now ? performance.now() : Date.now();
+          debugger;
+          const elapsed = (performance.now ? performance.now() : Date.now()) - start;
+        } catch (e) {
+          return false;
+        }
+      }
+
+      function checkDevTools() {
+        if (redirected) return;
+
+        if (isDevToolsOpenBySize()) {
+          console.warn('DevTools detected (size). Redirecting...');
+          return doRedirect();
+        }
+
+        if (isDevToolsOpenByDebugger()) {
+          console.warn('DevTools detected (debugger). Redirecting...');
+          return doRedirect();
+        }
+      }
+
+      const intervalId = setInterval(function () {
+        try {
+          checkDevTools();
+        } catch (e) {
+        }
+      }, INTERVAL_MS);
+
+      window.addEventListener('resize', function () {
+        try { if (isDevToolsOpenBySize()) doRedirect(); } catch (e) { }
+      }, true);
+
+      document.addEventListener('visibilitychange', function () {
+        if (document.visibilityState === 'visible') {
+          try { checkDevTools(); } catch (e) { }
+        }
+      });
+
+      window.addEventListener('beforeunload', function () {
+        clearInterval(intervalId);
+      });
+    })();
+  </script> -->
+  <app-root></app-root>
+</body>
+
+</html>

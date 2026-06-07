@@ -1,0 +1,15 @@
+2026-06-03 10:29:25.797 +05:30 [INF] User profile is available. Using 'C:\Users\DITNEOSOFT13755\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-03 10:29:25.965 +05:30 [WRN] The WebRootPath was not found: D:\Mounika Projects\SCV\SCV PMS UAT 26092025\Surprise_Cash_Verification_API-uat\Surprise_Cash_Verification\Surprise_Cash_Verification\wwwroot. Static files may be unavailable.
+2026-06-03 10:29:26.070 +05:30 [INF] Now listening on: http://localhost:7117
+2026-06-03 10:29:26.070 +05:30 [INF] Now listening on: http://localhost:5117
+2026-06-03 10:29:26.117 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 10:29:26.117 +05:30 [INF] Hosting environment: Development
+2026-06-03 10:29:26.118 +05:30 [INF] Content root path: D:\Mounika Projects\SCV\SCV PMS UAT 26092025\Surprise_Cash_Verification_API-uat\Surprise_Cash_Verification\Surprise_Cash_Verification
+2026-06-03 10:29:27.591 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/index.html - null null
+2026-06-03 10:29:28.103 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/index.html - 200 null text/html;charset=utf-8 523.7488ms
+2026-06-03 10:29:28.132 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 10:29:28.136 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 4.1147ms
+2026-06-03 10:29:28.179 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/_vs/browserLink - null null
+2026-06-03 10:29:28.224 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.653ms
+2026-06-03 10:29:28.288 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/v1/swagger.json - null null
+2026-06-03 10:29:28.415 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.2919ms

@@ -1,0 +1,13 @@
+{
+    "appName": "SCV",
+    "baseUrl": "http://localhost:7117/api/",
+    "baseUrlUAT": "https://softwareuat.unionbankofindia.co.in/SCV_API/api/",
+    "baseUrlLive": "https://app4.unionbankofindia.co.in/scv_backend/api/",
+
+    "userName": "/rIpo7Zt+TxXLOTGIISrow==",
+    "data": "ecsFJ2GMmYjbTCLXbSJ4hg==",
+
+    "apiVersion": "",
+    "sessionIdleTime": 240,
+    "sessionTimeout": 60
+}

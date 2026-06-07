@@ -1,0 +1,110 @@
+<app-admin-header></app-admin-header>
+<div class="container-fluid px-5">
+    <h1 class="mt-3">Add Employee</h1>
+    <form [formGroup]="staffTypeForm">
+        <div class="row mt-2">
+            <div class="col-md-3 col-12 mt-3" *ngIf="staffTypeList$ | async as staffList">
+                <label class=" form-label">UserType</label>
+                <select class="form-select" formControlName="userType" (change)="onUserTypeChange($event)">
+                    <option value="" selected>Please Select UserType</option>
+                    <option *ngFor="let item of staffList" value="{{item.rolE_CODE}}">{{item.rolE_NAME}}
+                    </option>
+                </select>
+                <div *ngIf="staffTypeForm.get('userType')?.invalid && (staffTypeForm.get('userType')?.dirty || staffTypeForm.get('userType')?.touched)"
+                    class="text-danger">
+                    UserType is required.
+                </div>
+            </div>
+            <div class="col-md-3 col-12 mt-3" *ngIf="isUserTypeSelected">
+                <label class=" form-label">Employee Id</label>
+                <input type="text" formControlName="employeeId" class="form-control" maxlength="10" placeholder="Please Enter Employee Id">
+                <div *ngIf="staffTypeForm.get('employeeId')?.invalid && (staffTypeForm.get('employeeId')?.dirty || staffTypeForm.get('employeeId')?.touched)"
+                    class="text-danger">
+                    Employee Id is required.
+                </div>
+
+                <div
+                    *ngIf="staffTypeForm.get('employeeId')?.errors?.['maxlength'] && (staffTypeForm.get('employeeId')?.dirty || staffTypeForm.get('employeeId')?.touched)">
+                    Employee Id must be between 6 to 10 characters.
+                </div>
+            </div>
+            <div *ngIf="isUserTypeSelected && isCentralOfficer" class="row">
+                <div class="col-md-3 col-12 mt-3">
+                    <label class=" form-label">Employee Location Code</label>
+                    <input type="text" formControlName="employeeLocationCode" class="form-control" readonly placeholder="Employee Location Code">
+                    <div *ngIf="staffTypeForm.get('employeeLocationCode')?.invalid && (staffTypeForm.get('employeeLocationCode')?.dirty || staffTypeForm.get('employeeLocationCode')?.touched)"
+                        class="text-danger">
+                        Employee Location Code is required.
+                    </div>
+                </div>
+                <div class="col-md-3 col-12 mt-3">
+                    <label class=" form-label">Employee Location Description</label>
+                    <input type="text" formControlName="employeeLocationDescription" class="form-control" readonly placeholder="Employee Location Description">
+                    <div *ngIf="staffTypeForm.get('employeeLocationDescription')?.invalid && (staffTypeForm.get('employeeLocationDescription')?.dirty || staffTypeForm.get('employeeLocationDescription')?.touched)"
+                        class="text-danger">
+                        Employee Location Description is required.
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="isUserTypeSelected && !isCentralOfficer" class="row">
+                <div class="col-md-3 col-12 mt-3">
+                    <label class=" form-label">Employee Designation Code</label>
+                    <input type="text" formControlName="employeeDesignationCode" class="form-control" readonly placeholder="Employee Designation Code">
+                    <div *ngIf="staffTypeForm.get('employeeDesignationCode')?.invalid && (staffTypeForm.get('employeeDesignationCode')?.dirty || staffTypeForm.get('employeeDesignationCode')?.touched)"
+                        class="text-danger">
+                        Employee Designation Code is required.
+                    </div>
+                </div>
+                <div class="col-md-3 col-12 mt-3">
+                    <label class=" form-label">Employee Designation Description</label>
+                    <input type="text" formControlName="employeeDesignationDescription" class="form-control" readonly placeholder="Employee Designation Description">
+                    <div *ngIf="staffTypeForm.get('employeeDesignationDescription')?.invalid && (staffTypeForm.get('employeeDesignationDescription')?.dirty || staffTypeForm.get('employeeDesignationDescription')?.touched)"
+                        class="text-danger">
+                        Employee Designation Description is required.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 mt-3">
+                <label class=" form-label">Status</label>
+                <select class="form-select" formControlName="status">
+                    <option value="" selected>Please Select Status</option>
+                    <option value="Allow">Allow</option>
+                    <option value="Not_Allow">Not_Allow</option>
+                </select>
+                <div *ngIf="staffTypeForm.get('status')?.invalid && (staffTypeForm.get('status')?.dirty || staffTypeForm.get('status')?.touched)"
+                    class="text-danger">
+                    Status is required.
+                </div>
+            </div>
+            <div class="mt-3 d-flex">
+                <button type="submit" class="btn btn-primary" (click)="onSubmitClick()">Submit</button>
+                <button type="button" class="btn btn-primary ms-3" *ngIf="isUserTypeSelected"
+                    (click)="onViewClick()">View</button>
+                <button type="button" class="btn btn-primary ms-3" (click)="onGoBackClick()">Go Back</button>
+            </div>
+        </div>
+    </form>
+    <ng-container *ngIf="isStaffByEmpId">
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Employee Designation Code</th>
+                    <th>Employee Designation Description</th>
+                    <th>Employee Location Code</th>
+                    <th>Employee Location Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let obj of staffList">
+                    <td>{{obj.EMP_ID}}</td>
+                    <td>{{obj.EMP_DESGN}}</td>
+                    <td>{{obj.EMP_DESGN_DESC}}</td>
+                    <td>{{obj.LOCATION}}</td>
+                    <td>{{obj.LOCATION_DESC}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </ng-container>
+</div>
+<app-footer></app-footer>

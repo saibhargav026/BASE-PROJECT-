@@ -1,0 +1,988 @@
+[
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "GetAnnexureFourUsers",
+    "RelativePath": "api/Account/GetAnnexureFourUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "GetBranchByBrCode",
+    "RelativePath": "api/Account/GetBranchByBrCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "GetBranchByZoneRegion",
+    "RelativePath": "api/Account/GetBranchByZoneRegion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "zoneCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "regionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "GetBranchDetailsByRegion",
+    "RelativePath": "api/Account/GetBranchDetailsByRegion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchEmpDetails",
+        "Type": "Surprise_Cash_Verification.Models.BranchEmpDetailsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "GetQuestions",
+    "RelativePath": "api/Account/GetQuestions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "GetStaffDetails",
+    "RelativePath": "api/Account/GetStaffDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqParameter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "GetStaffDetailsAfterLogin",
+    "RelativePath": "api/Account/GetStaffDetailsAfterLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqParameter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "GetUnNominatedBranches",
+    "RelativePath": "api/Account/GetUnNominatedBranches",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FinancialYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quarter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DivisionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "LogOut",
+    "RelativePath": "api/Account/LogOut",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "MyDairyDecrypt",
+    "RelativePath": "api/Account/MyDairyDecrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Surprise_Cash_Verification.Mappers.DTO.MyDairyDecryptRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AccountController",
+    "Method": "validateDomainUser",
+    "RelativePath": "api/Account/validateDomainUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Surprise_Cash_Verification.Mappers.DTO.UserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AdminController",
+    "Method": "AddStaff",
+    "RelativePath": "api/Admin/AddStaff",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Surprise_Cash_Verification.Models.AddStaffRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AdminController",
+    "Method": "GetAllLoginTypeCount",
+    "RelativePath": "api/Admin/GetAllLoginTypeCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AdminController",
+    "Method": "GetAllLoginTypes",
+    "RelativePath": "api/Admin/GetAllLoginTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AdminController",
+    "Method": "GetAllStaffTypes",
+    "RelativePath": "api/Admin/GetAllStaffTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AdminController",
+    "Method": "GetEmployeeById",
+    "RelativePath": "api/Admin/GetEmployeeById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AdminController",
+    "Method": "GetStaffByEmpId",
+    "RelativePath": "api/Admin/GetStaffByEmpId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.AdminController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/Admin/UpdateEmployee/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "encryptedRequest",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "AddAnnexureFourDetails",
+    "RelativePath": "api/SurpriseCashVerification/AddAnnexureFourDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annexureFourDetails",
+        "Type": "Surprise_Cash_Verification.Mapper.DTO.SurpriseCashAnnexure4DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "AddAnnexureOneDetails",
+    "RelativePath": "api/SurpriseCashVerification/AddAnnexureOneDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annexureOneDetails",
+        "Type": "Surprise_Cash_Verification.Mapper.DTO.SurpriseCashAnnexure1DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "AddAnnexureThreeDetails",
+    "RelativePath": "api/SurpriseCashVerification/AddAnnexureThreeDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annexureThreeDetails",
+        "Type": "Surprise_Cash_Verification.Mapper.DTO.SurpriseCashAnnexure3DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "AddAnnexureTwoDetails",
+    "RelativePath": "api/SurpriseCashVerification/AddAnnexureTwoDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annexureTwoDetails",
+        "Type": "Surprise_Cash_Verification.Mapper.DTO.SurpriseCashAnnexure2DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "AddApproved",
+    "RelativePath": "api/SurpriseCashVerification/AddApproved",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "approvedDTO",
+        "Type": "Surprise_Cash_Verification.Mapper.DTO.ApprovedDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "AddBranchComplied",
+    "RelativePath": "api/SurpriseCashVerification/AddBranchComplied",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchCompliedDTO",
+        "Type": "Surprise_Cash_Verification.Mapper.DTO.BranchCompliedDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "AddCOComplied",
+    "RelativePath": "api/SurpriseCashVerification/AddCOComplied",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coCompliedDTO",
+        "Type": "Surprise_Cash_Verification.Mapper.DTO.COCompliedDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "AddComment",
+    "RelativePath": "api/SurpriseCashVerification/AddComment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentDTO",
+        "Type": "Surprise_Cash_Verification.Mapper.DTO.CommentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "AddROComplied",
+    "RelativePath": "api/SurpriseCashVerification/AddROComplied",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roCompliedDTO",
+        "Type": "Surprise_Cash_Verification.Mapper.DTO.ROCompliedDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "AddZOComplied",
+    "RelativePath": "api/SurpriseCashVerification/AddZOComplied",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "zoCompliedDTO",
+        "Type": "Surprise_Cash_Verification.Mapper.DTO.ZOCompliedDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "DeleteAnnexureOneData",
+    "RelativePath": "api/SurpriseCashVerification/DeleteAnnexureOneData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RefNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "DeleteAnnexureTwoData",
+    "RelativePath": "api/SurpriseCashVerification/DeleteAnnexureTwoData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RefNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAllAnnexureOneData",
+    "RelativePath": "api/SurpriseCashVerification/GetAllAnnexureOneData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currentYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "currentQuarter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "regionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureFiveDetails",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureFiveDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureFourDetails",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureFourDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureOneDetails",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureOneDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqParameter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureOneDetailsByPFno",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureOneDetailsByPFno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqParameter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "financialYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "quarter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureOneDetailsBySVBranchCode",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureOneDetailsBySVBranchCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqParameter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Current",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "financialYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "quarter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "regionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureThreeDetails",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureThreeDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "iszone",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureTwoDetailsByBranchCode",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureTwoDetailsByBranchCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqParameter",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureTwoDetailsByCO",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureTwoDetailsByCO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "zonecode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "financialYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "quarter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureTwoDetailsByPFNo",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureTwoDetailsByPFNo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqParameter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "financialYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "quarter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "regionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "regionName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureTwoDetailsByRegionCode",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureTwoDetailsByRegionCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqParameter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureTwoDetailsByRegionCodeQuater",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureTwoDetailsByRegionCodeQuater",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FinancialYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quater",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ZoneCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureTwoDetailsByZoneCode",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureTwoDetailsByZoneCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqParameter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quater",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetAnnexureTwoDetailsCO",
+    "RelativePath": "api/SurpriseCashVerification/GetAnnexureTwoDetailsCO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financialYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "quarter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetApprovedAnnexureFourDetails",
+    "RelativePath": "api/SurpriseCashVerification/GetApprovedAnnexureFourDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "zonecode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "iszone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "quater",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetApprovedAnnexureTwoDetails",
+    "RelativePath": "api/SurpriseCashVerification/GetApprovedAnnexureTwoDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "quater",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "iszone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "financialYear",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "currentUser",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetCOLogIn",
+    "RelativePath": "api/SurpriseCashVerification/GetCOLogIn",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "emp_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetDenominationsCashDetails",
+    "RelativePath": "api/SurpriseCashVerification/GetDenominationsCashDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Surprise_Cash_Verification.Models.CashRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetLatestSurpriseDate",
+    "RelativePath": "api/SurpriseCashVerification/GetLatestSurpriseDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "svBranchCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetLogInType",
+    "RelativePath": "api/SurpriseCashVerification/GetLogInType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emp_desgn",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController",
+    "Method": "GetRegionDetails",
+    "RelativePath": "api/SurpriseCashVerification/GetRegionDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "zoneCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

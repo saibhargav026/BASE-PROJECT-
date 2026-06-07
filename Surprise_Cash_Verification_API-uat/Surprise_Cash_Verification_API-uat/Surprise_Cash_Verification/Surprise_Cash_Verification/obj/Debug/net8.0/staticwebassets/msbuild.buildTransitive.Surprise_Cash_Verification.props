@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Surprise_Cash_Verification.props" />
+</Project>

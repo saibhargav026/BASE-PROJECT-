@@ -1,0 +1,56 @@
+<div class="login-block" *ngIf="!encryptedText">
+    <div class="container">
+        <div class="row login-block-row">
+            <div class="login-form-block">
+                <div class="form-block w-50">
+                    <div class="form-box">
+                        <div class="logo">
+                            <img src="assets/images/logo.png" class="img-fluid" alt="logo" />
+                        </div>
+                        <form [formGroup]=fromGroup_Obj_login autocomplete="off" method="post">
+                            <div id="check_csrf" runat="server"></div>
+                            <div class="my-3">
+                                <label>Username</label>
+                                <input type="text" class="form-control" formControlName="username" id="name"
+                                    name="name" />
+                            </div>
+
+                            <div class="my-3">
+                                <label>Password</label>
+                                <input type="password" class="form-control" formControlName="parameter2" required
+                                    minlength="4" autocomplete="off" />
+                            </div>
+
+                            <!-- <div class="showpassword my-3 d-flex gap-2 align-items-center"><input type="checkbox" class="form-check-input m-0"><p class="m-0">Show Password</p></div> -->
+                            <div class="my-3">
+                                <label class="form3Example5" for="form3Example5">{{question}} ?</label>
+                                <input required formControlName="confirmCaptcha" type="text" id="form3Example5"
+                                    class="form-control" placeholder="Confirm Capta" autocomplete="off" />
+                            </div>
+
+
+                            <div class="d-flex justify-content-between align-items-center my-3">
+                                <button class="btn" (click)="checkLogin()"> Login </button>
+                                <a href="" class="fs-5 text-white">
+                                    <p>Reset</p>
+                                </a>
+                            </div>
+                        </form>
+                        <div>
+                            <p class="text-white m-0 p-0"><b>HelpLines</b></p>
+                            <ul class="text-white">
+                                <li>IP-111317 - Manager</li>
+                                <li>IP-111248 - Chief Manager</li>
+                                <li>IP-111230 - Assistant General Manager</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-50 text-center">
+                    <h1>Surprise Cash Verification</h1>
+                    <img src="assets/images/4.png" alt="login-img" class="login-right-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

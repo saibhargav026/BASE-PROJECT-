@@ -1,0 +1,327 @@
+/* You can add global styles to this file, and also import other style files */
+
+.login-block{
+    background-image: url('./assets/images/mychoice.png');
+    background-size: contain;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+  }
+  .form-box {
+    padding: 20px;
+    border-right: 2px dotted #d1cece;
+    /* background: rgba(255, 255, 255, 0.2); */
+  }
+  
+  .logo {
+    width: fit-content;
+    margin: 10px 0px 0px 0px;  
+    padding: 0px 50px;
+  }
+  
+  .logo h1 {
+    font-size: xx-large;
+    padding: 15px 30px;
+    margin: 0px;
+  }
+  
+  .form-box .form-control {
+    border-radius: 10px;
+  }
+  
+  .form-box label {
+    color: #fff;
+      font-family: sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+  }
+  .login-form-block h1{
+    font-size: 40px;
+    font-family: fantasy;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  .form-box .btn {
+      padding: 5px 30px;
+      background-color: #0066b0;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold; 
+    /* background: linear-gradient(to right, rgba(179,57,22,0.5), rgba(22,27,179,0.5));;  */
+  }
+  
+  .form-box .form-control:focus {
+    box-shadow: initial;
+  }
+  .login-right-img {
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .login-form-block{
+      background-color: #232121c2;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      border-radius: 10px;    
+      box-shadow: 0px 0px 10px;
+      width: 80%!important;
+      border: 3px solid #fff;
+  }
+  .login-block-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  /* Login Page Css End */
+
+/* header start */
+  header{
+    background-image: url('./assets/images/bg3.jpg');
+    background-position: 0px 76%;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+header  img {
+  width: 30%;
+  /* display: flex; */
+  /* margin: auto; */
+  margin: 0rem 0rem 0rem 30rem;
+  padding: 10px;
+}
+/* header end */
+.annexure-steps .mat-step-header{
+  background-color: #d91b6199;
+    border-radius: 0px 0px 10px 10px;
+    color: #fff;
+    display: none;
+}
+.annexure-steps .mat-step-icon-content{
+  display: none!important;
+}
+.annexure-steps .mat-stepper-horizontal-line{
+  border-top-width: 0px!important;
+}
+.annexure-steps .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(1)::after{
+  content:"Annexure-I"!important;
+  width: calc(50% - -38px)!important;
+  margin-top: 5px;
+  border-top-style:initial!important;
+}
+.annexure-steps .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(3)::before{
+  border-top-width: 0px!important;  
+}
+.annexure-steps .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(3) .mat-step-icon-state-number{
+  display: none;
+}
+.annexure-steps .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(3)::after{
+  content:"Annexure-II"!important;
+  width: calc(50% - -38px)!important;
+  margin-top: 5px;
+  border-top-style:initial!important;
+}
+.annexure-steps .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(5)::after{
+  content:"Annexure-III"!important;
+  width: calc(50% - -38px)!important;
+  margin-top: 5px;
+  border-top-style:initial!important;
+}
+.annexure-steps .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-last-child(6)::before{
+  content:"Annexure-IV"!important;  
+  margin-top: 5px;
+  border-top-style:initial!important;
+  margin-left: 5px;
+}
+.states .mat-step-header{
+  background-color: #d91b6199;
+    border-radius: 0px 0px 10px 10px;
+    color: #fff;
+}
+.states .mat-step-icon-content{
+  display: none!important;
+}
+.states .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(1)::after{
+  content:"Branch Surprise cash Verification"!important;
+  width: 100% !important;
+  margin-top: 5px;
+  text-align: center;
+  border-top-style:initial!important;
+}
+.states .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-last-child(1)::before{
+  content:"RO consolidated Report"!important;
+  width: 100% !important;
+  margin-top: 5px;
+  text-align: center;
+  border-top-style:initial!important;
+}
+.states .mat-step-label{
+  min-width: 200px!important;
+}
+
+.zonalofficer .mat-step-header{
+  background-color: #d91b6199;
+    border-radius: 0px 0px 10px 10px;
+    color: #fff;
+}
+.zonalofficer .mat-step-icon-content{
+  display: none!important;
+}
+.zonalofficer .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(1)::after{
+  content:"Branch Report"!important;
+  width: 100% !important;
+  margin-top: 5px;
+  text-align: center;
+  border-top-style:initial!important;
+}
+.zonalofficer .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(3)::after{
+  content:"RO Reports"!important;
+  width: 100% !important;
+  text-align: center;
+  margin-top: 5px;
+  border-top-style:initial!important;
+}
+.zonalofficer .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(5)::after{
+  content:"Action Taken"!important;
+  width: 100% !important;
+  margin-top: 5px;
+  text-align: center;
+  border-top-style:initial!important;
+}
+.zonalofficer .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-last-child(1)::before{
+  content:"Consolidated Report of ZO"!important;
+  width: 100% !important;
+  margin-top: 5px;
+  text-align: center;
+  border-top-style:initial!important;
+}
+.zonalofficer .mat-step-label{
+  min-width: 150px!important;
+}
+.centraloffice .mat-step-header{
+  background-color: #d91b6199;
+    border-radius: 0px 0px 10px 10px;
+    color: #fff;
+}
+.centraloffice .mat-step-icon-content{
+  display: none!important;
+}
+.centraloffice .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(1)::after{
+  content:"RO Reports"!important;
+  width: 100% !important;
+  margin-top: 5px;
+  text-align: center;
+  border-top-style:initial!important;
+}
+.centraloffice .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(3)::after{
+  content:"ZO Reports"!important;
+  width: 100% !important;
+  text-align: center;
+  margin-top: 5px;
+  border-top-style:initial!important;
+}
+.centraloffice .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-child(5)::after{
+  content:"Final Report"!important;
+  width: 100% !important;
+  margin-top: 5px;
+  text-align: center;
+  border-top-style:initial!important;
+}
+.centraloffice .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:nth-last-child(1)::before{
+  content:"Request A Report"!important;
+  width: 100% !important;
+  margin-top: 5px;
+  text-align: center;
+  border-top-style:initial!important;
+}
+.centraloffice .mat-step-label{
+  min-width: 150px!important;
+}
+/* unique style  */
+
+.annexure_container{
+  border:2px dotted #adadad;
+  border-radius: 10px;        
+  background-color: antiquewhite;
+}
+
+.annexure_container .heading{
+  text-align: center;
+  padding: 2rem;
+  font-size: 42px;
+}
+.annexure_1 .annexure_container{
+  border:2px dotted #adadad;
+  border-radius: 10px;            
+background-color: antiquewhite;
+ 
+}
+.annexure_1 .annexure_container .heading{
+  text-align: center;
+  padding: 2rem;
+  font-size: 42px;
+}
+.Denominations table{        
+  width: 100%;
+  margin: auto;
+  border: 1px solid #adadad;
+  border-radius: 10px;
+}
+.Denominations .table thead{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #adadad;                
+}
+.Denominations table tr th, .Denominations table tr td {
+  border:1px solid #adadad;    
+  font-size: 14px;     
+}
+.Denominations table tr th{
+  padding-left: 8px; 
+}
+.table-from table{        
+  border: 1px solid #adadad;
+   border-radius: 10px;
+}
+.table-from table tr td{
+  border:1px solid #adadad;
+  vertical-align: top;
+}
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;                  
+}
+h4{
+  text-align: center;
+}
+
+#toast-container {
+  max-width: 100vw;
+  overflow: hidden;
+  margin-right: 300px;
+}
+
+#toast-container > div {
+  position: fixed !important;
+  z-index: 9999 !important;
+  max-width: 300px;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.toast-top-right {
+  top: 12px;
+  right: 12px
+}
+
+.toast-bottom-right {
+  bottom: 12px;
+  right: 12px;
+}
+.pointer{
+  cursor: pointer;
+}

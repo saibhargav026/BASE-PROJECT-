@@ -1,0 +1,21 @@
+<div class="popup" *ngIf="isVisible">
+    <div class="popup-inner">
+        <form [formGroup]="commentForm" autocomplete="off">
+            <div id="check_csrf" runat="server"></div>
+            <div class="row">
+                <div class="Denominations verify-inputs mt-4">
+                    <label><b>Comment</b></label>
+                    <textarea rows="6" class="form-control" formControlName="Comment"></textarea>
+                    <div *ngIf="commentForm.get('Comment')?.invalid && (commentForm.get('Comment')?.dirty || commentForm.get('Comment')?.touched)"
+                        class="text-danger">
+                        Please add comment.
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <button class="btn btn-success px-4" (click)="Submit(commentForm)">Submit</button>
+                <button class="btn btn-success px-4 ml-10" (click)="closepopup()">Close</button>
+            </div>
+        </form>
+    </div>
+</div>

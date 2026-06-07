@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\services\\usermanagementservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:services\\usermanagementservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\services\\surprisecashverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:services\\surprisecashverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\controllers\\surprisecashverificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:controllers\\surprisecashverificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\core\\dbconn\\organisationsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:core\\dbconn\\organisationsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\core\\tables\\master\\staffdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:core\\tables\\master\\staffdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\core\\tables\\master\\regionmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:core\\tables\\master\\regionmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\core\\tables\\master\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:core\\tables\\master\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\core\\tables\\master\\branchmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:core\\tables\\master\\branchmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\surprise_cash_verification.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:surprise_cash_verification.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|d:\\mounika projects\\scv\\scv pms uat 26092025\\surprise_cash_verification_api-uat\\surprise_cash_verification\\surprise_cash_verification\\interface\\isurprisecashverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A0C2E6-1244-4164-A635-358E268FAF36}|Surprise_Cash_Verification.csproj|solutionrelative:interface\\isurprisecashverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserManagementServices.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Services\\UserManagementServices.cs",
+              "RelativeDocumentMoniker": "Services\\UserManagementServices.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Services\\UserManagementServices.cs",
+              "RelativeToolTip": "Services\\UserManagementServices.cs",
+              "ViewState": "AgIAALQBAAAAAAAAAADwvwUCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T07:15:21.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T07:24:29.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrganisationsDbContext.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Core\\DbConn\\OrganisationsDbContext.cs",
+              "RelativeDocumentMoniker": "Core\\DbConn\\OrganisationsDbContext.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Core\\DbConn\\OrganisationsDbContext.cs",
+              "RelativeToolTip": "Core\\DbConn\\OrganisationsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T06:56:50.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAJwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T06:52:54.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StaffDetails.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Core\\Tables\\Master\\StaffDetails.cs",
+              "RelativeDocumentMoniker": "Core\\Tables\\Master\\StaffDetails.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Core\\Tables\\Master\\StaffDetails.cs",
+              "RelativeToolTip": "Core\\Tables\\Master\\StaffDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T06:51:07.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegionMaster.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Core\\Tables\\Master\\RegionMaster.cs",
+              "RelativeDocumentMoniker": "Core\\Tables\\Master\\RegionMaster.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Core\\Tables\\Master\\RegionMaster.cs",
+              "RelativeToolTip": "Core\\Tables\\Master\\RegionMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T06:51:04.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Questions.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Core\\Tables\\Master\\Questions.cs",
+              "RelativeDocumentMoniker": "Core\\Tables\\Master\\Questions.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Core\\Tables\\Master\\Questions.cs",
+              "RelativeToolTip": "Core\\Tables\\Master\\Questions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T06:51:02.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BranchMaster.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Core\\Tables\\Master\\BranchMaster.cs",
+              "RelativeDocumentMoniker": "Core\\Tables\\Master\\BranchMaster.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Core\\Tables\\Master\\BranchMaster.cs",
+              "RelativeToolTip": "Core\\Tables\\Master\\BranchMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T06:50:54.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SurpriseCashVerificationController.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Controllers\\SurpriseCashVerificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SurpriseCashVerificationController.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Controllers\\SurpriseCashVerificationController.cs",
+              "RelativeToolTip": "Controllers\\SurpriseCashVerificationController.cs",
+              "ViewState": "AgIAALYBAAAAAAAAAAAWwLoBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:46:16.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SurpriseCashVerificationService.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Services\\SurpriseCashVerificationService.cs",
+              "RelativeDocumentMoniker": "Services\\SurpriseCashVerificationService.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Services\\SurpriseCashVerificationService.cs",
+              "RelativeToolTip": "Services\\SurpriseCashVerificationService.cs",
+              "ViewState": "AgIAAB8GAAAAAAAAAAAAAAoBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T11:12:00.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-18T11:07:47.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminService.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Services\\AdminService.cs",
+              "RelativeToolTip": "Services\\AdminService.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAIYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T05:46:29.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Surprise_Cash_Verification",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Surprise_Cash_Verification.csproj",
+              "RelativeDocumentMoniker": "Surprise_Cash_Verification.csproj",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Surprise_Cash_Verification.csproj",
+              "RelativeToolTip": "Surprise_Cash_Verification.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-04T05:38:40.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISurpriseCashVerificationService.cs",
+              "DocumentMoniker": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Interface\\ISurpriseCashVerificationService.cs",
+              "RelativeDocumentMoniker": "Interface\\ISurpriseCashVerificationService.cs",
+              "ToolTip": "D:\\Mounika Projects\\SCV\\SCV PMS UAT 26092025\\Surprise_Cash_Verification_API-uat\\Surprise_Cash_Verification\\Surprise_Cash_Verification\\Interface\\ISurpriseCashVerificationService.cs",
+              "RelativeToolTip": "Interface\\ISurpriseCashVerificationService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCQAAACsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T12:07:08.853Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

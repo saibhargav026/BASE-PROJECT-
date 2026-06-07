@@ -1,0 +1,53 @@
+<app-admin-header></app-admin-header>
+<div class="container-fluid mb-5 pb-5 px-5">
+    <h1 class="mt-3">Employee List</h1>
+
+    <div class="d-flex justify-content-end mt-3">
+        <a [routerLink]="['/add-admin']" class="btn btn-primary">Add Employee</a>
+    </div>
+    <div class="container-fluid">
+        <div *ngIf="loginTypeLists$ | async as loginTypeList" class="table table-responsive">
+            <table class="table table-bordered mt-3 custome_table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>UserType</th>
+                        <th>Status</th>
+                        <th>Created On</th>
+                        <th>Employee Designation Code</th>
+                        <th>Employee Designation Description</th>
+                        <th>Employee ID</th>
+                        <th>Employee Location Code</th>
+                        <th>Employee Location Description</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let obj of loginTypeList">
+                        <td>{{obj.id}}</td>
+                        <td>{{obj.useR_TYPE}}</td>
+                        <td>{{obj.status}}</td>
+                        <td>{{obj.createD_ON}}</td>
+                        <td>{{obj.emP_DESGN}}</td>
+                        <td>{{obj.emP_DESGN_DESC}}</td>
+                        <td>{{obj.emP_ID}}</td>
+                        <td>{{obj.location}}</td>
+                        <td>{{obj.locatioN_DESC}}</td>
+                        <td><a class="btn btn-light" [routerLink]="['/edit-admin', obj.id]">Edit</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination pointer">
+                <li class="page-item"><a class="page-link" (click)="getPreviousPage()">Previous</a></li>
+                <li *ngFor="let item of list; let i=index" class="page-item">
+                    <a (click)="getPage(i+1)" class="page-link">{{i+1}}</a>
+                </li>
+                <li class="page-item"><a class="page-link" (click)="getNextPage()">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,14 @@
+<header>
+    <section class="d-flex justify-content-between align-items-center">
+        <div>
+            <img src="assets/images/logo.png" alt="logo" />
+        </div>
+        <div class="logout">
+            <p>Name: {{accountOpenerName}}</p>
+            <p>PF No: {{accountOpenerEmpId}}</p>
+            <div class="text-end d-print-none">
+                <button class="btn btn-success" (click)="logoutUser()">Logout</button>
+            </div>
+        </div>
+    </section>
+</header>

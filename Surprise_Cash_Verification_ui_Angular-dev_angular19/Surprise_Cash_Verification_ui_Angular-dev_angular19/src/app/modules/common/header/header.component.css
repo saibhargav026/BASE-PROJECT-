@@ -1,0 +1,30 @@
+header{
+    background-image: url('../../../../assets/images/bg3.jpg');
+    background-position: 0px 76%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .img{
+ width: 30%;
+ /* display: flex; */
+ margin: 0rem 0rem 0rem 10rem;
+ padding: 20px;
+}
+header p{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-wrap:nowrap;
+}
+.logout{
+    background-color: rgba(225, 225, 225, 0.8);
+    padding: 15px 70px;
+    color: #000;           
+    border-radius: 10px 0px 0px 10px;
+}
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header .mat-step-label{
+    padding: 0;
+}

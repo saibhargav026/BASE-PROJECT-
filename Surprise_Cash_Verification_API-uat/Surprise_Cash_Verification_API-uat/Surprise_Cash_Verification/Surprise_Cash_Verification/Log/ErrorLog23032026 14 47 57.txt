@@ -1,0 +1,647 @@
+2026-03-23 14:47:57.611 +05:30 [INF] User profile is available. Using 'C:\Users\DITNEOSOFT13755\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-23 14:47:57.708 +05:30 [WRN] The WebRootPath was not found: D:\Mounika Projects\SCV\SCV PMS UAT 26092025\Surprise_Cash_Verification_API-uat\Surprise_Cash_Verification\Surprise_Cash_Verification\wwwroot. Static files may be unavailable.
+2026-03-23 14:47:57.773 +05:30 [INF] Now listening on: http://localhost:7117
+2026-03-23 14:47:57.773 +05:30 [INF] Now listening on: http://localhost:5117
+2026-03-23 14:47:57.811 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-23 14:47:57.812 +05:30 [INF] Hosting environment: Development
+2026-03-23 14:47:57.812 +05:30 [INF] Content root path: D:\Mounika Projects\SCV\SCV PMS UAT 26092025\Surprise_Cash_Verification_API-uat\Surprise_Cash_Verification\Surprise_Cash_Verification
+2026-03-23 14:47:59.489 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/index.html - null null
+2026-03-23 14:47:59.835 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/index.html - 200 null text/html;charset=utf-8 353.9367ms
+2026-03-23 14:47:59.855 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-23 14:47:59.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 2.3618ms
+2026-03-23 14:47:59.867 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/_vs/browserLink - null null
+2026-03-23 14:47:59.904 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.4639ms
+2026-03-23 14:48:00.057 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/swagger/v1/swagger.json - null null
+2026-03-23 14:48:00.154 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.352ms
+2026-03-23 14:48:03.959 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - null null
+2026-03-23 14:48:03.962 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-03-23 14:48:04.055 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:04.056 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - 204 null null 97.0298ms
+2026-03-23 14:48:04.057 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - application/json; null
+2026-03-23 14:48:04.058 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:04.088 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:48:04.102 +05:30 [INF] Route matched with {action = "GetQuestions", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetQuestions() on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:04.406 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:04.408 +05:30 [INF] GetQuestions Controller started
+2026-03-23 14:48:04.507 +05:30 [INF] GetQuestions Service started.
+2026-03-23 14:48:05.674 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Answer], [l].[Question]
+FROM [login_question] AS [l]
+ORDER BY NEWID()
+2026-03-23 14:48:05.703 +05:30 [INF] Question retrieved successfully.
+2026-03-23 14:48:05.794 +05:30 [INF] Serialized question details.
+2026-03-23 14:48:05.796 +05:30 [INF] Question details encrypted successfully & GetQuestions Service Ended.
+2026-03-23 14:48:05.798 +05:30 [INF] Accessing expired session, Key:780a7ed4-b3c7-5e78-d4a1-f389ed4e2b27
+2026-03-23 14:48:05.803 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1392.8789ms.
+2026-03-23 14:48:05.806 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:05.816 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) in 1709.7146ms
+2026-03-23 14:48:05.817 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:48:05.820 +05:30 [INF] Session started; Key:780a7ed4-b3c7-5e78-d4a1-f389ed4e2b27, Id:f7e80b54-57a1-39f3-ba40-5c54c83334fb
+2026-03-23 14:48:05.828 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - 499 null application/json; charset=utf-8 1770.9728ms
+2026-03-23 14:48:05.928 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - null null
+2026-03-23 14:48:05.931 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:05.931 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - 204 null null 3.2612ms
+2026-03-23 14:48:05.932 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - application/json; null
+2026-03-23 14:48:05.932 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:05.937 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:48:05.938 +05:30 [INF] Route matched with {action = "GetQuestions", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetQuestions() on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:05.957 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:05.957 +05:30 [INF] GetQuestions Controller started
+2026-03-23 14:48:05.958 +05:30 [INF] GetQuestions Service started.
+2026-03-23 14:48:06.004 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Answer], [l].[Question]
+FROM [login_question] AS [l]
+ORDER BY NEWID()
+2026-03-23 14:48:06.005 +05:30 [INF] Question retrieved successfully.
+2026-03-23 14:48:06.005 +05:30 [INF] Serialized question details.
+2026-03-23 14:48:06.005 +05:30 [INF] Question details encrypted successfully & GetQuestions Service Ended.
+2026-03-23 14:48:06.005 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 47.9493ms.
+2026-03-23 14:48:06.006 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:06.006 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) in 68.0512ms
+2026-03-23 14:48:06.006 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:48:06.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - 200 null application/json; charset=utf-8 74.3914ms
+2026-03-23 14:48:13.869 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/validateDomainUser - null null
+2026-03-23 14:48:13.870 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:13.870 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/validateDomainUser - 204 null null 1.4922ms
+2026-03-23 14:48:14.338 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Account/validateDomainUser - application/json 167
+2026-03-23 14:48:14.338 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:14.339 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification)'
+2026-03-23 14:48:14.347 +05:30 [INF] Route matched with {action = "validateDomainUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] validateDomainUser(Surprise_Cash_Verification.Mappers.DTO.UserRequest) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:14.378 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:14.379 +05:30 [INF] validateDomainUser Controller started
+2026-03-23 14:48:14.397 +05:30 [INF] validateUser Service started
+2026-03-23 14:48:14.397 +05:30 [INF] Decrypted user_id: 412929
+2026-03-23 14:48:14.397 +05:30 [INF] Captcha validation passed for user: 412929
+2026-03-23 14:48:14.399 +05:30 [INF] Sending request to AD API for user validation.
+2026-03-23 14:48:14.594 +05:30 [INF] Received response from AD API.
+2026-03-23 14:48:14.614 +05:30 [INF] User validated successfully: 412929
+2026-03-23 14:48:14.643 +05:30 [INF] Entered: InsertToken: 5Fm7BQEtsd+fdrzujUun9A==
+2026-03-23 14:48:15.676 +05:30 [INF] Executed DbCommand (88ms) [Parameters=[:user_USERID_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "u"."REF_NO", "u"."HASH_TOKEN", "u"."LASTTOKEN", "u"."USERID", "u"."USERNAME"
+FROM "USER_TOKEN" "u"
+WHERE "u"."USERID" = :user_USERID_0
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:15.691 +05:30 [INF] USER_TOKEN response: 
+2026-03-23 14:48:15.850 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[:p0='?' (Size = 2000), :p1='?' (Size = 2000), :p2='?' (Size = 2000), :p3='?' (Size = 2000), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rUSER_TOKEN_0" IS RECORD
+(
+"REF_NO" NUMBER(10)
+);
+TYPE "tUSER_TOKEN_0" IS TABLE OF "rUSER_TOKEN_0";
+"lUSER_TOKEN_0" "tUSER_TOKEN_0";
+
+BEGIN
+
+"lUSER_TOKEN_0" := "tUSER_TOKEN_0"();
+"lUSER_TOKEN_0".extend(1);
+INSERT INTO "USER_TOKEN" ("HASH_TOKEN", "LASTTOKEN", "USERID", "USERNAME")
+VALUES (:p0, :p1, :p2, :p3)
+RETURNING "REF_NO" INTO "lUSER_TOKEN_0"(1)."REF_NO";
+OPEN :cur0 FOR SELECT "lUSER_TOKEN_0"(1)."REF_NO" FROM DUAL;
+
+END;
+2026-03-23 14:48:15.927 +05:30 [INF] InsertToken status: False
+2026-03-23 14:48:15.931 +05:30 [INF] User details encrypted successfully.
+2026-03-23 14:48:15.995 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2026-03-23 14:48:16.050 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ACC_NUM], [s].[BR_CODE], [s].[DEPTID], [s].[DEPT_ID_DESC], [s].[DIVISION_CODE], [s].[DIVISION_NAME], [s].[EMP_DATE_OF_BIRTH], [s].[EMP_DESGN], [s].[EMP_DESGN_DESC], [s].[EMP_ID], [s].[EMP_JOINING_DATE], [s].[EMP_NAME], [s].[EMP_SCALE_CODE], [s].[EMP_SCALE_DESCR], [s].[EXPECTED_END_DATE], [s].[LOCATION], [s].[LOCATION_DESC], [s].[POSTING_DATE], [s].[REGION_CODE], [s].[REGION_NAME], [s].[SEX]
+FROM (
+    select * from STAFF_DETAILS  where EMP_DESGN in ('4206','4254','4255','5101','5106','5254','5255') and LOCATION_DESC like 'RO -%'
+) AS [s]
+2026-03-23 14:48:16.188 +05:30 [INF] Executed DbCommand (99ms) [Parameters=[:userId_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "b"."REFNO", "b"."BRANCH_CODE", "b"."BRANCH_USERID", "b"."CREATED_BY", "b"."CREATED_ON", "b"."RO_CODE", "b"."RO_USERID", "b"."STATUS", "b"."UNIQUEID"
+FROM "BRANCH_USER_ACCESS" "b"
+WHERE "b"."BRANCH_USERID" = :userId_0
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:16.192 +05:30 [INF] validateUser Service Ended with Success
+2026-03-23 14:48:16.193 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1814.2607ms.
+2026-03-23 14:48:16.193 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:16.193 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification) in 1845.9932ms
+2026-03-23 14:48:16.193 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification)'
+2026-03-23 14:48:16.194 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Account/validateDomainUser - 200 null application/json; charset=utf-8 1856.3319ms
+2026-03-23 14:48:16.499 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX1/h0abx+NaO/q2sfOMIEnsTCEcfhncenyslrSbGFaAMS6MFInoT4JXOPNhT7xw06BQZoBs5VovINaHZ2lvkn9KKfed8rEFDrmv69T5K4fxwWIPFIJlMNURfvnMiyQ1aXrehMscHT7RxbanqZ/Xtgk97GLegjxhvinpYJRgMUf70QB+43mry1DSEa99Lk1N95cNsWfB4ANV4f/M4lyNrF6/J3psclDxSho1nMOFqIhbKHBfF16dW8VP97irgclQ4AOskMnNtQVgtbKbOqulWaLav7C+p0nfUZ+ozM8H1/j4OIPzYdoVW5EtyHz/sVf0FPSFm/xADHQv9XAfUBA/vWjnP1NsJ3IjnbKkYWwNEfLUUzwbq1dHC4Ax/hCogzUwSjUaqlaFULSUhR19sJvAojLCekgf7f+9r85UY1DuGgxDCp/USA+Pl9hRHZfh1EeJMpQ45mW3V4HX+FmGPGrrsOKcUo6OaXHyFpkdBxQmOw6L1wbFw5BYTrY1g3z49pnEF7K8TS+VAI23cIhngjK/OkhZ2/o1Rsg/SmnqHpW5yNpUjyXk+UD2lqhahSdAWlprqq4u2d4IX2eC66OvamD1Gc2D4rBWGfP2Sx9a7q0JIEGnCtS+eNAMXIGVFK4nd4LXzwAN/3iQDYqEYnMrLTcMeUkBXS1Cv200N77I= - null null
+2026-03-23 14:48:16.500 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:16.500 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX1/h0abx+NaO/q2sfOMIEnsTCEcfhncenyslrSbGFaAMS6MFInoT4JXOPNhT7xw06BQZoBs5VovINaHZ2lvkn9KKfed8rEFDrmv69T5K4fxwWIPFIJlMNURfvnMiyQ1aXrehMscHT7RxbanqZ/Xtgk97GLegjxhvinpYJRgMUf70QB+43mry1DSEa99Lk1N95cNsWfB4ANV4f/M4lyNrF6/J3psclDxSho1nMOFqIhbKHBfF16dW8VP97irgclQ4AOskMnNtQVgtbKbOqulWaLav7C+p0nfUZ+ozM8H1/j4OIPzYdoVW5EtyHz/sVf0FPSFm/xADHQv9XAfUBA/vWjnP1NsJ3IjnbKkYWwNEfLUUzwbq1dHC4Ax/hCogzUwSjUaqlaFULSUhR19sJvAojLCekgf7f+9r85UY1DuGgxDCp/USA+Pl9hRHZfh1EeJMpQ45mW3V4HX+FmGPGrrsOKcUo6OaXHyFpkdBxQmOw6L1wbFw5BYTrY1g3z49pnEF7K8TS+VAI23cIhngjK/OkhZ2/o1Rsg/SmnqHpW5yNpUjyXk+UD2lqhahSdAWlprqq4u2d4IX2eC66OvamD1Gc2D4rBWGfP2Sx9a7q0JIEGnCtS+eNAMXIGVFK4nd4LXzwAN/3iQDYqEYnMrLTcMeUkBXS1Cv200N77I= - 204 null null 0.5226ms
+2026-03-23 14:48:16.500 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX1/h0abx+NaO/q2sfOMIEnsTCEcfhncenyslrSbGFaAMS6MFInoT4JXOPNhT7xw06BQZoBs5VovINaHZ2lvkn9KKfed8rEFDrmv69T5K4fxwWIPFIJlMNURfvnMiyQ1aXrehMscHT7RxbanqZ/Xtgk97GLegjxhvinpYJRgMUf70QB+43mry1DSEa99Lk1N95cNsWfB4ANV4f/M4lyNrF6/J3psclDxSho1nMOFqIhbKHBfF16dW8VP97irgclQ4AOskMnNtQVgtbKbOqulWaLav7C+p0nfUZ+ozM8H1/j4OIPzYdoVW5EtyHz/sVf0FPSFm/xADHQv9XAfUBA/vWjnP1NsJ3IjnbKkYWwNEfLUUzwbq1dHC4Ax/hCogzUwSjUaqlaFULSUhR19sJvAojLCekgf7f+9r85UY1DuGgxDCp/USA+Pl9hRHZfh1EeJMpQ45mW3V4HX+FmGPGrrsOKcUo6OaXHyFpkdBxQmOw6L1wbFw5BYTrY1g3z49pnEF7K8TS+VAI23cIhngjK/OkhZ2/o1Rsg/SmnqHpW5yNpUjyXk+UD2lqhahSdAWlprqq4u2d4IX2eC66OvamD1Gc2D4rBWGfP2Sx9a7q0JIEGnCtS+eNAMXIGVFK4nd4LXzwAN/3iQDYqEYnMrLTcMeUkBXS1Cv200N77I= - null 0
+2026-03-23 14:48:16.509 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX1/Ho5lnKUvuOqMKx1aYfr1UNOveBA9VIotF5MoLYWl+SJuS7OGtWFhC47vYxNkwJnU/cIhkIv3BvhMvKSOvYDbKmIlp/ckiblrXFCH0wYhGOt/E8HAQbDU3SsC6MNh6U2kUwr22lY1Rbkd75YTx2eDiJIl+07EJJEaH6o+yewEHjOT/GmZ/6PbX0R9ypVHp0Uvw+fQwW3JpKvx/8C+KdA9AlevnZenVEP50KcIGKm/JSfW/OBORnSwIQ37hEAORYKc5E/TSVu51SgesxnVJ34ZUwg5TXSAIEe2qGFCf8cQDZq+LegkDFBK0AfR1BMyJNQyyQIco6ZG+CvoQxEajjthHeKRyni17vrvt6VIukCahMiHR3iACQ/ruAqBHafF1jVJQJlz6PJ1aRcxlFaUaUBMrZ+qOjRoMId9Drwe3RJt3bDrfnORAn6lyfrcbTFmJktMPkxnqKJtX2RHEQjPHQ/xj58F06aBKzY942IyYlW5a+VLhpUD7rKT8NHPhZf1JEVGddRFvfzCSPRtIqRfofc4N6qo8CbIpk/FRVroyoviDU+9S20buoK6XhEHQSxsN7zxWYpEQe+rMjpDgvLDM0sq/kYUfhoS/FqZxu5tQD0vVZ9ffx7Cpq+WUDimqnsiPbBXdLjhMTKcRqwaCkzQc2YCvHv+AtFIMZSs= - null null
+2026-03-23 14:48:16.509 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:16.510 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX1/Ho5lnKUvuOqMKx1aYfr1UNOveBA9VIotF5MoLYWl+SJuS7OGtWFhC47vYxNkwJnU/cIhkIv3BvhMvKSOvYDbKmIlp/ckiblrXFCH0wYhGOt/E8HAQbDU3SsC6MNh6U2kUwr22lY1Rbkd75YTx2eDiJIl+07EJJEaH6o+yewEHjOT/GmZ/6PbX0R9ypVHp0Uvw+fQwW3JpKvx/8C+KdA9AlevnZenVEP50KcIGKm/JSfW/OBORnSwIQ37hEAORYKc5E/TSVu51SgesxnVJ34ZUwg5TXSAIEe2qGFCf8cQDZq+LegkDFBK0AfR1BMyJNQyyQIco6ZG+CvoQxEajjthHeKRyni17vrvt6VIukCahMiHR3iACQ/ruAqBHafF1jVJQJlz6PJ1aRcxlFaUaUBMrZ+qOjRoMId9Drwe3RJt3bDrfnORAn6lyfrcbTFmJktMPkxnqKJtX2RHEQjPHQ/xj58F06aBKzY942IyYlW5a+VLhpUD7rKT8NHPhZf1JEVGddRFvfzCSPRtIqRfofc4N6qo8CbIpk/FRVroyoviDU+9S20buoK6XhEHQSxsN7zxWYpEQe+rMjpDgvLDM0sq/kYUfhoS/FqZxu5tQD0vVZ9ffx7Cpq+WUDimqnsiPbBXdLjhMTKcRqwaCkzQc2YCvHv+AtFIMZSs= - 204 null null 0.9911ms
+2026-03-23 14:48:16.511 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX1/Ho5lnKUvuOqMKx1aYfr1UNOveBA9VIotF5MoLYWl+SJuS7OGtWFhC47vYxNkwJnU/cIhkIv3BvhMvKSOvYDbKmIlp/ckiblrXFCH0wYhGOt/E8HAQbDU3SsC6MNh6U2kUwr22lY1Rbkd75YTx2eDiJIl+07EJJEaH6o+yewEHjOT/GmZ/6PbX0R9ypVHp0Uvw+fQwW3JpKvx/8C+KdA9AlevnZenVEP50KcIGKm/JSfW/OBORnSwIQ37hEAORYKc5E/TSVu51SgesxnVJ34ZUwg5TXSAIEe2qGFCf8cQDZq+LegkDFBK0AfR1BMyJNQyyQIco6ZG+CvoQxEajjthHeKRyni17vrvt6VIukCahMiHR3iACQ/ruAqBHafF1jVJQJlz6PJ1aRcxlFaUaUBMrZ+qOjRoMId9Drwe3RJt3bDrfnORAn6lyfrcbTFmJktMPkxnqKJtX2RHEQjPHQ/xj58F06aBKzY942IyYlW5a+VLhpUD7rKT8NHPhZf1JEVGddRFvfzCSPRtIqRfofc4N6qo8CbIpk/FRVroyoviDU+9S20buoK6XhEHQSxsN7zxWYpEQe+rMjpDgvLDM0sq/kYUfhoS/FqZxu5tQD0vVZ9ffx7Cpq+WUDimqnsiPbBXdLjhMTKcRqwaCkzQc2YCvHv+AtFIMZSs= - null 0
+2026-03-23 14:48:16.545 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:16.545 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:16.550 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:16.550 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:16.555 +05:30 [INF] Route matched with {action = "GetStaffDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStaffDetails(System.String) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:16.555 +05:30 [INF] Route matched with {action = "GetStaffDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStaffDetails(System.String) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:16.579 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:16.590 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:16.591 +05:30 [INF] GetStaffDetails Controller started
+2026-03-23 14:48:16.591 +05:30 [INF] GetStaffDetails Controller started
+2026-03-23 14:48:16.774 +05:30 [INF] GetStaffDetails Service Started.
+2026-03-23 14:48:16.774 +05:30 [INF] GetStaffDetails Service Started.
+2026-03-23 14:48:16.839 +05:30 [INF] GetStaffDetails Service decrypted EMP_ID: 412929
+2026-03-23 14:48:16.839 +05:30 [INF] GetStaffDetails Service decrypted EMP_ID: 412929
+2026-03-23 14:48:16.957 +05:30 [INF] Executed DbCommand (102ms) [Parameters=[@__empId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ACC_NUM], [s].[BR_CODE], [s].[DEPTID], [s].[DEPT_ID_DESC], [s].[DIVISION_CODE], [s].[DIVISION_NAME], [s].[EMP_DATE_OF_BIRTH], [s].[EMP_DESGN], [s].[EMP_DESGN_DESC], [s].[EMP_ID], [s].[EMP_JOINING_DATE], [s].[EMP_NAME], [s].[EMP_SCALE_CODE], [s].[EMP_SCALE_DESCR], [s].[EXPECTED_END_DATE], [s].[LOCATION], [s].[LOCATION_DESC], [s].[POSTING_DATE], [s].[REGION_CODE], [s].[REGION_NAME], [s].[SEX]
+FROM [STAFF_DETAILS] AS [s]
+WHERE [s].[EMP_ID] = @__empId_0
+2026-03-23 14:48:16.959 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2026-03-23 14:48:16.989 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[@__empId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ACC_NUM], [s].[BR_CODE], [s].[DEPTID], [s].[DEPT_ID_DESC], [s].[DIVISION_CODE], [s].[DIVISION_NAME], [s].[EMP_DATE_OF_BIRTH], [s].[EMP_DESGN], [s].[EMP_DESGN_DESC], [s].[EMP_ID], [s].[EMP_JOINING_DATE], [s].[EMP_NAME], [s].[EMP_SCALE_CODE], [s].[EMP_SCALE_DESCR], [s].[EXPECTED_END_DATE], [s].[LOCATION], [s].[LOCATION_DESC], [s].[POSTING_DATE], [s].[REGION_CODE], [s].[REGION_NAME], [s].[SEX]
+FROM [STAFF_DETAILS] AS [s]
+WHERE [s].[EMP_ID] = @__empId_0
+2026-03-23 14:48:17.011 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ACC_NUM], [s].[BR_CODE], [s].[DEPTID], [s].[DEPT_ID_DESC], [s].[DIVISION_CODE], [s].[DIVISION_NAME], [s].[EMP_DATE_OF_BIRTH], [s].[EMP_DESGN], [s].[EMP_DESGN_DESC], [s].[EMP_ID], [s].[EMP_JOINING_DATE], [s].[EMP_NAME], [s].[EMP_SCALE_CODE], [s].[EMP_SCALE_DESCR], [s].[EXPECTED_END_DATE], [s].[LOCATION], [s].[LOCATION_DESC], [s].[POSTING_DATE], [s].[REGION_CODE], [s].[REGION_NAME], [s].[SEX]
+FROM (
+    select * from STAFF_DETAILS where region_code in
+                        (select region_code from STAFF_DETAILS as s2 where emp_id='412929') and emp_desgn_desc like '%REGIONAL HEAD%'
+) AS [s]
+2026-03-23 14:48:17.012 +05:30 [INF] GetStaffDetails Service Executed regionalHead query
+2026-03-23 14:48:17.017 +05:30 [INF] GetStaffDetails Service Ended Successfully
+2026-03-23 14:48:17.017 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 427.2874ms.
+2026-03-23 14:48:17.017 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:17.017 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification) in 462.0205ms
+2026-03-23 14:48:17.017 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.018 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX1/Ho5lnKUvuOqMKx1aYfr1UNOveBA9VIotF5MoLYWl+SJuS7OGtWFhC47vYxNkwJnU/cIhkIv3BvhMvKSOvYDbKmIlp/ckiblrXFCH0wYhGOt/E8HAQbDU3SsC6MNh6U2kUwr22lY1Rbkd75YTx2eDiJIl+07EJJEaH6o+yewEHjOT/GmZ/6PbX0R9ypVHp0Uvw+fQwW3JpKvx/8C+KdA9AlevnZenVEP50KcIGKm/JSfW/OBORnSwIQ37hEAORYKc5E/TSVu51SgesxnVJ34ZUwg5TXSAIEe2qGFCf8cQDZq+LegkDFBK0AfR1BMyJNQyyQIco6ZG+CvoQxEajjthHeKRyni17vrvt6VIukCahMiHR3iACQ/ruAqBHafF1jVJQJlz6PJ1aRcxlFaUaUBMrZ+qOjRoMId9Drwe3RJt3bDrfnORAn6lyfrcbTFmJktMPkxnqKJtX2RHEQjPHQ/xj58F06aBKzY942IyYlW5a+VLhpUD7rKT8NHPhZf1JEVGddRFvfzCSPRtIqRfofc4N6qo8CbIpk/FRVroyoviDU+9S20buoK6XhEHQSxsN7zxWYpEQe+rMjpDgvLDM0sq/kYUfhoS/FqZxu5tQD0vVZ9ffx7Cpq+WUDimqnsiPbBXdLjhMTKcRqwaCkzQc2YCvHv+AtFIMZSs= - 200 null application/json; charset=utf-8 507.1133ms
+2026-03-23 14:48:17.041 +05:30 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ACC_NUM], [s].[BR_CODE], [s].[DEPTID], [s].[DEPT_ID_DESC], [s].[DIVISION_CODE], [s].[DIVISION_NAME], [s].[EMP_DATE_OF_BIRTH], [s].[EMP_DESGN], [s].[EMP_DESGN_DESC], [s].[EMP_ID], [s].[EMP_JOINING_DATE], [s].[EMP_NAME], [s].[EMP_SCALE_CODE], [s].[EMP_SCALE_DESCR], [s].[EXPECTED_END_DATE], [s].[LOCATION], [s].[LOCATION_DESC], [s].[POSTING_DATE], [s].[REGION_CODE], [s].[REGION_NAME], [s].[SEX]
+FROM (
+    select * from STAFF_DETAILS where region_code in
+                        (select region_code from STAFF_DETAILS as s2 where emp_id='412929') and emp_desgn_desc like '%REGIONAL HEAD%'
+) AS [s]
+2026-03-23 14:48:17.041 +05:30 [INF] GetStaffDetails Service Executed regionalHead query
+2026-03-23 14:48:17.042 +05:30 [INF] GetStaffDetails Service Ended Successfully
+2026-03-23 14:48:17.042 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 451.5255ms.
+2026-03-23 14:48:17.042 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:17.042 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification) in 486.5463ms
+2026-03-23 14:48:17.042 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.042 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX1/h0abx+NaO/q2sfOMIEnsTCEcfhncenyslrSbGFaAMS6MFInoT4JXOPNhT7xw06BQZoBs5VovINaHZ2lvkn9KKfed8rEFDrmv69T5K4fxwWIPFIJlMNURfvnMiyQ1aXrehMscHT7RxbanqZ/Xtgk97GLegjxhvinpYJRgMUf70QB+43mry1DSEa99Lk1N95cNsWfB4ANV4f/M4lyNrF6/J3psclDxSho1nMOFqIhbKHBfF16dW8VP97irgclQ4AOskMnNtQVgtbKbOqulWaLav7C+p0nfUZ+ozM8H1/j4OIPzYdoVW5EtyHz/sVf0FPSFm/xADHQv9XAfUBA/vWjnP1NsJ3IjnbKkYWwNEfLUUzwbq1dHC4Ax/hCogzUwSjUaqlaFULSUhR19sJvAojLCekgf7f+9r85UY1DuGgxDCp/USA+Pl9hRHZfh1EeJMpQ45mW3V4HX+FmGPGrrsOKcUo6OaXHyFpkdBxQmOw6L1wbFw5BYTrY1g3z49pnEF7K8TS+VAI23cIhngjK/OkhZ2/o1Rsg/SmnqHpW5yNpUjyXk+UD2lqhahSdAWlprqq4u2d4IX2eC66OvamD1Gc2D4rBWGfP2Sx9a7q0JIEGnCtS+eNAMXIGVFK4nd4LXzwAN/3iQDYqEYnMrLTcMeUkBXS1Cv200N77I= - 200 null application/json; charset=utf-8 542.0416ms
+2026-03-23 14:48:17.048 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetBranchByZoneRegion?zoneCode=577707&regionCode=547271 - null null
+2026-03-23 14:48:17.048 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:17.048 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetBranchByZoneRegion?zoneCode=577707&regionCode=547271 - 204 null null 0.4013ms
+2026-03-23 14:48:17.049 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Account/GetBranchByZoneRegion?zoneCode=577707&regionCode=547271 - null 0
+2026-03-23 14:48:17.050 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:17.051 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetBranchByZoneRegion (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.055 +05:30 [INF] Route matched with {action = "GetBranchByZoneRegion", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBranchByZoneRegion(System.String, System.String) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:17.067 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetBranchByZoneRegion (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:17.070 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetLogInType?emp_desgn=5255 - null null
+2026-03-23 14:48:17.071 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:17.071 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetLogInType?emp_desgn=5255 - 204 null null 0.4488ms
+2026-03-23 14:48:17.072 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/SurpriseCashVerification/GetLogInType?emp_desgn=5255 - application/json; null
+2026-03-23 14:48:17.072 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:17.073 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLogInType (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.076 +05:30 [INF] Route matched with {action = "GetLogInType", controller = "SurpriseCashVerification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLogInType(System.String) on controller Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController (Surprise_Cash_Verification).
+2026-03-23 14:48:17.100 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@__zoneCode_0='?' (Size = 4000), @__regionCode_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[BRANCH_AREA], [b].[BRANCH_CODE], [b].[BRANCH_NAME], [b].[BRANCH_NAME_HINDI], [b].[BRANCH_UCD1], [b].[BR_ADD1], [b].[BR_ADD2], [b].[BR_ADD3], [b].[BR_EST_DATE], [b].[PINCODE], [b].[REGION_CODE], [b].[SPL_BR], [b].[STD_CODE], [b].[ZONE_CODE], [b].[region_name], [b].[region_name_hindi], [b].[status], [b].[zone_name_eng]
+FROM [Branch_master] AS [b]
+WHERE [b].[ZONE_CODE] = @__zoneCode_0 AND [b].[REGION_CODE] = @__regionCode_1
+2026-03-23 14:48:17.120 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetBranchByZoneRegion (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 52.7259ms.
+2026-03-23 14:48:17.120 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[Surprise_Cash_Verification.Core.Tables.Master.Branch_master, Surprise_Cash_Verification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-23 14:48:17.129 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetBranchByZoneRegion (Surprise_Cash_Verification) in 74.2507ms
+2026-03-23 14:48:17.129 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetBranchByZoneRegion (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.130 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Account/GetBranchByZoneRegion?zoneCode=577707&regionCode=547271 - 200 null application/json; charset=utf-8 80.6263ms
+2026-03-23 14:48:17.270 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLogInType (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:17.271 +05:30 [INF] GetLogInType Controller Started
+2026-03-23 14:48:17.272 +05:30 [INF] GetLogInTypeAsync Service Started, Request Input emp_desgn is: 5255
+2026-03-23 14:48:17.332 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[:emp_desgn_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "l"."ID", "l"."CREATED_ON", "l"."EMP_DESGN", "l"."EMP_DESGN_DESC", "l"."EMP_ID", "l"."LOCATION", "l"."LOCATION_DESC", "l"."STATUS", "l"."USER_TYPE"
+FROM "LOGIN_TYPE" "l"
+WHERE "l"."EMP_DESGN" = :emp_desgn_0
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:17.361 +05:30 [INF] GetLogInTypeAsync Service Ended
+2026-03-23 14:48:17.361 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLogInType (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 91.5505ms.
+2026-03-23 14:48:17.362 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[Surprise_Cash_Verification.Core.Tables.LOGIN_TYPE, Surprise_Cash_Verification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-23 14:48:17.366 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLogInType (Surprise_Cash_Verification) in 290.2796ms
+2026-03-23 14:48:17.366 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLogInType (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.366 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/SurpriseCashVerification/GetLogInType?emp_desgn=5255 - 200 null application/json; charset=utf-8 294.8285ms
+2026-03-23 14:48:17.371 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByRegionCode?ReqParameter=547271 - null null
+2026-03-23 14:48:17.371 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:17.371 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByRegionCode?ReqParameter=547271 - 204 null null 0.5039ms
+2026-03-23 14:48:17.372 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByRegionCode?ReqParameter=547271 - null 0
+2026-03-23 14:48:17.373 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:17.373 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetApprovedAnnexureTwoDetails?status=Approved&code=547271&quater=Q4&iszone=No&financialYear=2025-26&currentUser=412929 - null null
+2026-03-23 14:48:17.374 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:17.374 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetApprovedAnnexureTwoDetails?status=Approved&code=547271&quater=Q4&iszone=No&financialYear=2025-26&currentUser=412929 - 204 null null 0.3404ms
+2026-03-23 14:48:17.375 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetApprovedAnnexureTwoDetails?status=Approved&code=547271&quater=Q4&iszone=No&financialYear=2025-26&currentUser=412929 - null 0
+2026-03-23 14:48:17.375 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:17.375 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByPFNo?ReqParameter=412929&financialYear=2025-26&quarter=Q4&regionCode=547271 - null null
+2026-03-23 14:48:17.375 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:17.375 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByPFNo?ReqParameter=412929&financialYear=2025-26&quarter=Q4&regionCode=547271 - 204 null null 0.2641ms
+2026-03-23 14:48:17.376 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByPFNo?ReqParameter=412929&financialYear=2025-26&quarter=Q4&regionCode=547271 - null 0
+2026-03-23 14:48:17.376 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:17.380 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByRegionCode (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.380 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByPFNo (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.380 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetApprovedAnnexureTwoDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.383 +05:30 [INF] Route matched with {action = "GetAnnexureTwoDetailsByRegionCode", controller = "SurpriseCashVerification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAnnexureTwoDetailsByRegionCode(System.String) on controller Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController (Surprise_Cash_Verification).
+2026-03-23 14:48:17.383 +05:30 [INF] Route matched with {action = "GetAnnexureTwoDetailsByPFNo", controller = "SurpriseCashVerification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAnnexureTwoDetailsByPFNo(System.String, System.String, System.String, System.String) on controller Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController (Surprise_Cash_Verification).
+2026-03-23 14:48:17.384 +05:30 [INF] Route matched with {action = "GetApprovedAnnexureTwoDetails", controller = "SurpriseCashVerification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApprovedAnnexureTwoDetails(System.String, System.String, System.String, System.String, System.String, System.String) on controller Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController (Surprise_Cash_Verification).
+2026-03-23 14:48:17.407 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByRegionCode (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:17.408 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByPFNo (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:17.408 +05:30 [INF] GetAnnexureTwoDetailsByRegionCode Controller Started
+2026-03-23 14:48:17.410 +05:30 [INF] GetAnnexureTwoDetailsByPFNo Controller Started-Branch SCV report-DYRH
+2026-03-23 14:48:17.421 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetApprovedAnnexureTwoDetails (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:17.422 +05:30 [INF] GetApprovedAnnexureTwoDetails Controller Started-Consolidated Report of RO-DYRH
+2026-03-23 14:48:17.422 +05:30 [INF] GetAnnexureTwoDetailsByRegionCode Service Started REGION_CODE: 547271
+2026-03-23 14:48:17.424 +05:30 [INF] GetAnnexureTwoDetailsByPFNo(Branch SCV report-DYRH) Service Started financialYear: 2025-26, quater: Q4,a2.REGION_CODE:547271
+2026-03-23 14:48:17.425 +05:30 [INF] GetApprovedAnnexureTwoDetails Service Started financialYear: 2025-26, quater: Q4, currentLoginUser: 412929,a2.ANNEXURE_STATUS:Approved,iszone:No,ZONE_CODE:547271
+2026-03-23 14:48:17.543 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[:regionCode_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."REF_NO", "s"."ACTION_TAKEN_BRANCH_DATE", "s"."ACTION_TAKEN_BRANCH_ID", "s"."ACTION_TAKEN_BY_BRANCH", "s"."ACTION_TAKEN_BY_CO", "s"."ACTION_TAKEN_BY_RO", "s"."ACTION_TAKEN_BY_ZO", "s"."ACTION_TAKEN_CO_DATE", "s"."ACTION_TAKEN_CO_ID", "s"."ACTION_TAKEN_RO_DATE", "s"."ACTION_TAKEN_RO_ID", "s"."ACTION_TAKEN_ZO_DATE", "s"."ACTION_TAKEN_ZO_ID", "s"."ANNEXURE_COMMENT", "s"."ANNEXURE_STATUS", "s"."ANNEXURE_STATUS_BRANCH", "s"."ANNEXURE_STATUS_CO", "s"."ANNEXURE_STATUS_RO", "s"."ANNEXURE_STATUS_ZO", "s"."CASH_COUNTING_MACHINE_PROVIDED", "s"."CASH_COUNTING_MACHINE_PROVIDED_NO", "s"."CASH_COUNTING_MACHINE_WORKING", "s"."CASH_COUNTING_MACHINE_WORKING_NO", "s"."CASH_SELECTION_TYPE", "s"."CCTV_RECORDING_OF_LAST_90DAYS_AVAILABLE", "s"."CCTV_RECORDING_OF_LAST_90DAYS_AVAILABLE_NO", "s"."CCTV_SYSTEM_IS_PROVIDED", "s"."CCTV_SYSTEM_IS_PROVIDED_NO", "s"."CCTV_SYSTEM_IS_WORKING", "s"."CCTV_SYSTEM_IS_WORKING_NO", "s"."COINS_1", "s"."COINS_10", "s"."COINS_2", "s"."COINS_20", "s"."COINS_5", "s"."COINS_50_PAISA", "s"."CREATED_BY", "s"."CREATED_ON", "s"."DATE_OF_PREV_SURPRISE_VERIFICATION", "s"."DELETED_BY", "s"."DELETED_ON", "s"."DISCREPANCIES", "s"."FINANCIAL_YEAR", "s"."IP_ADDRESS", "s"."IS_DELETED", "s"."IS_DISABLE", "s"."JOINT_CUSTODIAN_VERIFYING", "s"."KEPT_UNDER_JOINT_CUSTODY", "s"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS", "s"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS_DATE", "s"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS_NO", "s"."KEY_REGISTER_KEPT_UNDER_JOINT_CUSTODY", "s"."KEY_REGISTER_KEPT_UNDER_JOINT_CUSTODY_NO", "s"."KEY_REGISTER_MASTER_KEY_OF_THE_LOCKERS", "s"."KEY_REGISTER_MASTER_KEY_OF_THE_LOCKERS_NO", "s"."KEY_REGISTER_WHETHER_KEY_REGISTER_MAINTAINED", "s"."KEY_REGISTER_WHETHER_KEY_REGISTER_MAINTAINED_NO", "s"."MODIFIED_BY", "s"."MODIFIED_ON", "s"."MONTHLY_CASH_VERIFICATION_OF_CASH", "s"."MONTHTYCONSOTIDATEDREPORT", "s"."MONTHTYCONSOTIDATEDREPORTNO", "s"."NAME_OF_BRANCH", "s"."NAME_OF_INSPECTING_OFFICER", "s"."NOTES_1", "s"."NOTES_10", "s"."NOTES_100", "s"."NOTES_2", "s"."NOTES_20", "s"."NOTES_200", "s"."NOTES_2000", "s"."NOTES_5", "s"."NOTES_50", "s"."NOTES_500", "s"."NOTE_SORTING_MACHINE_PROVIDED", "s"."NOTE_SORTING_MACHINE_WORKING", "s"."NO_OF_POST_PARCELS_HELD_BY_BRANCH", "s"."OPENING_CLOSING_OF_BUSINESS", "s"."OPENING_CLOSING_OF_BUSINESS_AMOUNT", "s"."OTHER_GUIDELINES_COMPILED", "s"."PERIODICAL_SURPRISE_CHECK", "s"."PHYSICAL_CASH_IN_ATM_VERIFIED", "s"."PHYSICAL_CASH_IN_ATM_VERIFIED_DATE", "s"."PHYSICAL_CASH_IN_ATM_VERIFIED_NO", "s"."POSTAL_STAMPS", "s"."POSTAL_STAMPS_AMOUNT", "s"."POST_PARCELS_HELD_BY_BRANCH", "s"."QUATER", "s"."REGION_CODE", "s"."REGION_NAME", "s"."SAFETY_SECURITY_FOUND_THAT_BURGLARY_ALARM_SYSTEM", "s"."SAFETY_SECURITY_FOUND_THAT_BURGLARY_ALARM_SYSTEM_NO", "s"."SAFETY_SECURITY_FOUND_THAT_DOOR_OF_NETWORK_ROOM", "s"."SAFETY_SECURITY_FOUND_THAT_STRONG_ROOM_DOOR_OF_BRANCH", "s"."SAFE_CUSTODY_RECEIPT", "s"."SAFE_CUSTODY_RECEIPTNAME", "s"."SAFE_CUSTODY_RECEIPT_DATED", "s"."SECURITY_GUARD_IS_INVOLVED", "s"."SECURITY_GUARD_IS_INVOLVED_DETAILS", "s"."SOILED_NOTES_AMT", "s"."STAMPED_AGREEMENT_FORMS", "s"."STAMPED_AGREEMENT_FORMS_AMOUNT", "s"."SV_BRANCH_CODE", "s"."UNIQUE_ID", "s"."WHETHERAVAITABITITYOFNAM", "s"."WHETHERAVAITABITITYOFNAMNO", "s"."WHETHERFIR", "s"."WHETHERFIRNO", "s"."WHETHERMACHINESORTEDNOTES", "s"."WHETHERMACHINESORTEDNOTESNO", "s"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH", "s"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH_DATE", "s"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH_NO", "s"."WHETHER_ULTRAVIOLET_LAMP_PROVIDED", "s"."WHETHER_ULTRAVIOLET_LAMP_PROVIDED_NO", "s"."WHETHER_ULTRAVIOLET_LAMP_WORKING", "s"."WHETHER_ULTRAVIOLET_LAMP_WORKING_NO", "s"."ZONE_CODE", "s"."ZONE_NAME"
+FROM "SURPRISE_CASH_ANNEXURE_2" "s"
+WHERE "s"."REGION_CODE" = :regionCode_0
+2026-03-23 14:48:17.838 +05:30 [INF] Executed DbCommand (60ms) [Parameters=[:ReqParameter_0='?' (Size = 2000), :quater_1='?' (Size = 2000), :financialYear_2='?' (Size = 2000), :code_3='?' (Size = 2000), :currentUser_4='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "s0"."REF_NO", "s0"."APPLICATION_DATE", "s0"."BRANCH_PFNO", "s0"."CREATED_BY", "s0"."CREATED_ON", "s0"."DELETED_BY", "s0"."DELETED_ON", "s0"."FINANCIAL_YEAR", "s0"."FROM_BRANCH_NAME", "s0"."FROM_DYRH_NAME", "s0"."FROM_REGION_NAME", "s0"."IC_NO", "s0"."IC_NO_DATE", "s0"."IO_BRANCH_CODE", "s0"."IS_DELETED", "s0"."MODIFIED_BY", "s0"."MODIFIED_ON", "s0"."QUATER", "s0"."SV_BRANCH_CODE", "s0"."TO_BRANCH_OFFICER_BRANCH_NAME", "s0"."TO_BRANCH_OFFICER_DESIGNATION", "s0"."TO_BRANCH_OFFICER_NAME", "s0"."UNIQUE_ID", "s"."REF_NO", "s"."ACTION_TAKEN_BRANCH_DATE", "s"."ACTION_TAKEN_BRANCH_ID", "s"."ACTION_TAKEN_BY_BRANCH", "s"."ACTION_TAKEN_BY_CO", "s"."ACTION_TAKEN_BY_RO", "s"."ACTION_TAKEN_BY_ZO", "s"."ACTION_TAKEN_CO_DATE", "s"."ACTION_TAKEN_CO_ID", "s"."ACTION_TAKEN_RO_DATE", "s"."ACTION_TAKEN_RO_ID", "s"."ACTION_TAKEN_ZO_DATE", "s"."ACTION_TAKEN_ZO_ID", "s"."ANNEXURE_COMMENT", "s"."ANNEXURE_STATUS", "s"."ANNEXURE_STATUS_BRANCH", "s"."ANNEXURE_STATUS_CO", "s"."ANNEXURE_STATUS_RO", "s"."ANNEXURE_STATUS_ZO", "s"."CASH_COUNTING_MACHINE_PROVIDED", "s"."CASH_COUNTING_MACHINE_PROVIDED_NO", "s"."CASH_COUNTING_MACHINE_WORKING", "s"."CASH_COUNTING_MACHINE_WORKING_NO", "s"."CASH_SELECTION_TYPE", "s"."CCTV_RECORDING_OF_LAST_90DAYS_AVAILABLE", "s"."CCTV_RECORDING_OF_LAST_90DAYS_AVAILABLE_NO", "s"."CCTV_SYSTEM_IS_PROVIDED", "s"."CCTV_SYSTEM_IS_PROVIDED_NO", "s"."CCTV_SYSTEM_IS_WORKING", "s"."CCTV_SYSTEM_IS_WORKING_NO", "s"."COINS_1", "s"."COINS_10", "s"."COINS_2", "s"."COINS_20", "s"."COINS_5", "s"."COINS_50_PAISA", "s"."CREATED_BY", "s"."CREATED_ON", "s"."DATE_OF_PREV_SURPRISE_VERIFICATION", "s"."DELETED_BY", "s"."DELETED_ON", "s"."DISCREPANCIES", "s"."FINANCIAL_YEAR", "s"."IP_ADDRESS", "s"."IS_DELETED", "s"."IS_DISABLE", "s"."JOINT_CUSTODIAN_VERIFYING", "s"."KEPT_UNDER_JOINT_CUSTODY", "s"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS", "s"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS_DATE", "s"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS_NO", "s"."KEY_REGISTER_KEPT_UNDER_JOINT_CUSTODY", "s"."KEY_REGISTER_KEPT_UNDER_JOINT_CUSTODY_NO", "s"."KEY_REGISTER_MASTER_KEY_OF_THE_LOCKERS", "s"."KEY_REGISTER_MASTER_KEY_OF_THE_LOCKERS_NO", "s"."KEY_REGISTER_WHETHER_KEY_REGISTER_MAINTAINED", "s"."KEY_REGISTER_WHETHER_KEY_REGISTER_MAINTAINED_NO", "s"."MODIFIED_BY", "s"."MODIFIED_ON", "s"."MONTHLY_CASH_VERIFICATION_OF_CASH", "s"."MONTHTYCONSOTIDATEDREPORT", "s"."MONTHTYCONSOTIDATEDREPORTNO", "s"."NAME_OF_BRANCH", "s"."NAME_OF_INSPECTING_OFFICER", "s"."NOTES_1", "s"."NOTES_10", "s"."NOTES_100", "s"."NOTES_2", "s"."NOTES_20", "s"."NOTES_200", "s"."NOTES_2000", "s"."NOTES_5", "s"."NOTES_50", "s"."NOTES_500", "s"."NOTE_SORTING_MACHINE_PROVIDED", "s"."NOTE_SORTING_MACHINE_WORKING", "s"."NO_OF_POST_PARCELS_HELD_BY_BRANCH", "s"."OPENING_CLOSING_OF_BUSINESS", "s"."OPENING_CLOSING_OF_BUSINESS_AMOUNT", "s"."OTHER_GUIDELINES_COMPILED", "s"."PERIODICAL_SURPRISE_CHECK", "s"."PHYSICAL_CASH_IN_ATM_VERIFIED", "s"."PHYSICAL_CASH_IN_ATM_VERIFIED_DATE", "s"."PHYSICAL_CASH_IN_ATM_VERIFIED_NO", "s"."POSTAL_STAMPS", "s"."POSTAL_STAMPS_AMOUNT", "s"."POST_PARCELS_HELD_BY_BRANCH", "s"."QUATER", "s"."REGION_CODE", "s"."REGION_NAME", "s"."SAFETY_SECURITY_FOUND_THAT_BURGLARY_ALARM_SYSTEM", "s"."SAFETY_SECURITY_FOUND_THAT_BURGLARY_ALARM_SYSTEM_NO", "s"."SAFETY_SECURITY_FOUND_THAT_DOOR_OF_NETWORK_ROOM", "s"."SAFETY_SECURITY_FOUND_THAT_STRONG_ROOM_DOOR_OF_BRANCH", "s"."SAFE_CUSTODY_RECEIPT", "s"."SAFE_CUSTODY_RECEIPTNAME", "s"."SAFE_CUSTODY_RECEIPT_DATED", "s"."SECURITY_GUARD_IS_INVOLVED", "s"."SECURITY_GUARD_IS_INVOLVED_DETAILS", "s"."SOILED_NOTES_AMT", "s"."STAMPED_AGREEMENT_FORMS", "s"."STAMPED_AGREEMENT_FORMS_AMOUNT", "s"."SV_BRANCH_CODE", "s"."UNIQUE_ID", "s"."WHETHERAVAITABITITYOFNAM", "s"."WHETHERAVAITABITITYOFNAMNO", "s"."WHETHERFIR", "s"."WHETHERFIRNO", "s"."WHETHERMACHINESORTEDNOTES", "s"."WHETHERMACHINESORTEDNOTESNO", "s"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH", "s"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH_DATE", "s"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH_NO", "s"."WHETHER_ULTRAVIOLET_LAMP_PROVIDED", "s"."WHETHER_ULTRAVIOLET_LAMP_PROVIDED_NO", "s"."WHETHER_ULTRAVIOLET_LAMP_WORKING", "s"."WHETHER_ULTRAVIOLET_LAMP_WORKING_NO", "s"."ZONE_CODE", "s"."ZONE_NAME"
+FROM "SURPRISE_CASH_ANNEXURE_2" "s"
+LEFT JOIN "SURPRISE_CASH_ANNEXURE_1" "s0" ON "s"."REF_NO" = "s0"."REF_NO"
+WHERE (((((((("s"."ANNEXURE_STATUS" = :ReqParameter_0) AND ("s"."QUATER" = :quater_1))) AND ("s"."FINANCIAL_YEAR" = :financialYear_2))) AND ((("s"."REGION_CODE" = :code_3) OR ("s"."QUATER" = :quater_1))))) AND ("s0"."CREATED_BY" = :currentUser_4))
+2026-03-23 14:48:17.874 +05:30 [INF] GetApprovedAnnexureTwoDetails Completed Successfully with response count: 6
+2026-03-23 14:48:17.905 +05:30 [INF] Executed DbCommand (62ms) [Parameters=[:regionCode_0='?' (Size = 2000), :financialYear_1='?' (Size = 2000), :quarter_2='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."REF_NO", "s"."APPLICATION_DATE", "s"."BRANCH_PFNO", "s"."CREATED_BY", "s"."CREATED_ON", "s"."DELETED_BY", "s"."DELETED_ON", "s"."FINANCIAL_YEAR", "s"."FROM_BRANCH_NAME", "s"."FROM_DYRH_NAME", "s"."FROM_REGION_NAME", "s"."IC_NO", "s"."IC_NO_DATE", "s"."IO_BRANCH_CODE", "s"."IS_DELETED", "s"."MODIFIED_BY", "s"."MODIFIED_ON", "s"."QUATER", "s"."SV_BRANCH_CODE", "s"."TO_BRANCH_OFFICER_BRANCH_NAME", "s"."TO_BRANCH_OFFICER_DESIGNATION", "s"."TO_BRANCH_OFFICER_NAME", "s"."UNIQUE_ID", "s0"."REF_NO", "s0"."ACTION_TAKEN_BRANCH_DATE", "s0"."ACTION_TAKEN_BRANCH_ID", "s0"."ACTION_TAKEN_BY_BRANCH", "s0"."ACTION_TAKEN_BY_CO", "s0"."ACTION_TAKEN_BY_RO", "s0"."ACTION_TAKEN_BY_ZO", "s0"."ACTION_TAKEN_CO_DATE", "s0"."ACTION_TAKEN_CO_ID", "s0"."ACTION_TAKEN_RO_DATE", "s0"."ACTION_TAKEN_RO_ID", "s0"."ACTION_TAKEN_ZO_DATE", "s0"."ACTION_TAKEN_ZO_ID", "s0"."ANNEXURE_COMMENT", "s0"."ANNEXURE_STATUS", "s0"."ANNEXURE_STATUS_BRANCH", "s0"."ANNEXURE_STATUS_CO", "s0"."ANNEXURE_STATUS_RO", "s0"."ANNEXURE_STATUS_ZO", "s0"."CASH_COUNTING_MACHINE_PROVIDED", "s0"."CASH_COUNTING_MACHINE_PROVIDED_NO", "s0"."CASH_COUNTING_MACHINE_WORKING", "s0"."CASH_COUNTING_MACHINE_WORKING_NO", "s0"."CASH_SELECTION_TYPE", "s0"."CCTV_RECORDING_OF_LAST_90DAYS_AVAILABLE", "s0"."CCTV_RECORDING_OF_LAST_90DAYS_AVAILABLE_NO", "s0"."CCTV_SYSTEM_IS_PROVIDED", "s0"."CCTV_SYSTEM_IS_PROVIDED_NO", "s0"."CCTV_SYSTEM_IS_WORKING", "s0"."CCTV_SYSTEM_IS_WORKING_NO", "s0"."COINS_1", "s0"."COINS_10", "s0"."COINS_2", "s0"."COINS_20", "s0"."COINS_5", "s0"."COINS_50_PAISA", "s0"."CREATED_BY", "s0"."CREATED_ON", "s0"."DATE_OF_PREV_SURPRISE_VERIFICATION", "s0"."DELETED_BY", "s0"."DELETED_ON", "s0"."DISCREPANCIES", "s0"."FINANCIAL_YEAR", "s0"."IP_ADDRESS", "s0"."IS_DELETED", "s0"."IS_DISABLE", "s0"."JOINT_CUSTODIAN_VERIFYING", "s0"."KEPT_UNDER_JOINT_CUSTODY", "s0"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS", "s0"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS_DATE", "s0"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS_NO", "s0"."KEY_REGISTER_KEPT_UNDER_JOINT_CUSTODY", "s0"."KEY_REGISTER_KEPT_UNDER_JOINT_CUSTODY_NO", "s0"."KEY_REGISTER_MASTER_KEY_OF_THE_LOCKERS", "s0"."KEY_REGISTER_MASTER_KEY_OF_THE_LOCKERS_NO", "s0"."KEY_REGISTER_WHETHER_KEY_REGISTER_MAINTAINED", "s0"."KEY_REGISTER_WHETHER_KEY_REGISTER_MAINTAINED_NO", "s0"."MODIFIED_BY", "s0"."MODIFIED_ON", "s0"."MONTHLY_CASH_VERIFICATION_OF_CASH", "s0"."MONTHTYCONSOTIDATEDREPORT", "s0"."MONTHTYCONSOTIDATEDREPORTNO", "s0"."NAME_OF_BRANCH", "s0"."NAME_OF_INSPECTING_OFFICER", "s0"."NOTES_1", "s0"."NOTES_10", "s0"."NOTES_100", "s0"."NOTES_2", "s0"."NOTES_20", "s0"."NOTES_200", "s0"."NOTES_2000", "s0"."NOTES_5", "s0"."NOTES_50", "s0"."NOTES_500", "s0"."NOTE_SORTING_MACHINE_PROVIDED", "s0"."NOTE_SORTING_MACHINE_WORKING", "s0"."NO_OF_POST_PARCELS_HELD_BY_BRANCH", "s0"."OPENING_CLOSING_OF_BUSINESS", "s0"."OPENING_CLOSING_OF_BUSINESS_AMOUNT", "s0"."OTHER_GUIDELINES_COMPILED", "s0"."PERIODICAL_SURPRISE_CHECK", "s0"."PHYSICAL_CASH_IN_ATM_VERIFIED", "s0"."PHYSICAL_CASH_IN_ATM_VERIFIED_DATE", "s0"."PHYSICAL_CASH_IN_ATM_VERIFIED_NO", "s0"."POSTAL_STAMPS", "s0"."POSTAL_STAMPS_AMOUNT", "s0"."POST_PARCELS_HELD_BY_BRANCH", "s0"."QUATER", "s0"."REGION_CODE", "s0"."REGION_NAME", "s0"."SAFETY_SECURITY_FOUND_THAT_BURGLARY_ALARM_SYSTEM", "s0"."SAFETY_SECURITY_FOUND_THAT_BURGLARY_ALARM_SYSTEM_NO", "s0"."SAFETY_SECURITY_FOUND_THAT_DOOR_OF_NETWORK_ROOM", "s0"."SAFETY_SECURITY_FOUND_THAT_STRONG_ROOM_DOOR_OF_BRANCH", "s0"."SAFE_CUSTODY_RECEIPT", "s0"."SAFE_CUSTODY_RECEIPTNAME", "s0"."SAFE_CUSTODY_RECEIPT_DATED", "s0"."SECURITY_GUARD_IS_INVOLVED", "s0"."SECURITY_GUARD_IS_INVOLVED_DETAILS", "s0"."SOILED_NOTES_AMT", "s0"."STAMPED_AGREEMENT_FORMS", "s0"."STAMPED_AGREEMENT_FORMS_AMOUNT", "s0"."SV_BRANCH_CODE", "s0"."UNIQUE_ID", "s0"."WHETHERAVAITABITITYOFNAM", "s0"."WHETHERAVAITABITITYOFNAMNO", "s0"."WHETHERFIR", "s0"."WHETHERFIRNO", "s0"."WHETHERMACHINESORTEDNOTES", "s0"."WHETHERMACHINESORTEDNOTESNO", "s0"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH", "s0"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH_DATE", "s0"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH_NO", "s0"."WHETHER_ULTRAVIOLET_LAMP_PROVIDED", "s0"."WHETHER_ULTRAVIOLET_LAMP_PROVIDED_NO", "s0"."WHETHER_ULTRAVIOLET_LAMP_WORKING", "s0"."WHETHER_ULTRAVIOLET_LAMP_WORKING_NO", "s0"."ZONE_CODE", "s0"."ZONE_NAME"
+FROM "SURPRISE_CASH_ANNEXURE_1" "s"
+LEFT JOIN "SURPRISE_CASH_ANNEXURE_2" "s0" ON "s"."REF_NO" = "s0"."REF_NO"
+WHERE (((((("s0"."REGION_CODE" = :regionCode_0) AND ((("s"."IS_DELETED" = N'N') OR ("s0"."ANNEXURE_STATUS" = N'Deleted'))))) AND ("s0"."FINANCIAL_YEAR" = :financialYear_1))) AND ("s0"."QUATER" = :quarter_2))
+ORDER BY "s"."REF_NO" DESC
+2026-03-23 14:48:17.907 +05:30 [INF] GetAnnexureTwoDetailsByPFNo Service Completed Successfully with response Count: 13
+2026-03-23 14:48:17.927 +05:30 [INF] GetApprovedAnnexureTwoDetails Service Ended
+2026-03-23 14:48:17.927 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetApprovedAnnexureTwoDetails (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 505.7722ms.
+2026-03-23 14:48:17.927 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:17.927 +05:30 [INF] GetAnnexureTwoDetailsByPFNo Service Ended
+2026-03-23 14:48:17.928 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByPFNo (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 519.9473ms.
+2026-03-23 14:48:17.928 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:17.928 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetApprovedAnnexureTwoDetails (Surprise_Cash_Verification) in 543.6412ms
+2026-03-23 14:48:17.928 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetApprovedAnnexureTwoDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.928 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetApprovedAnnexureTwoDetails?status=Approved&code=547271&quater=Q4&iszone=No&financialYear=2025-26&currentUser=412929 - 200 null application/json; charset=utf-8 553.482ms
+2026-03-23 14:48:17.937 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByPFNo (Surprise_Cash_Verification) in 554.2795ms
+2026-03-23 14:48:17.938 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByPFNo (Surprise_Cash_Verification)'
+2026-03-23 14:48:17.938 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByPFNo?ReqParameter=412929&financialYear=2025-26&quarter=Q4&regionCode=547271 - 200 null application/json; charset=utf-8 561.7893ms
+2026-03-23 14:48:18.338 +05:30 [INF] GetAnnexureTwoDetailsByRegionCode Service query executed & response count: 391
+2026-03-23 14:48:18.388 +05:30 [INF] GetAnnexureTwoDetailsByRegionCode Service Ended
+2026-03-23 14:48:18.388 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByRegionCode (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 980.3808ms.
+2026-03-23 14:48:18.388 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:18.413 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByRegionCode (Surprise_Cash_Verification) in 1029.5596ms
+2026-03-23 14:48:18.413 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByRegionCode (Surprise_Cash_Verification)'
+2026-03-23 14:48:18.413 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByRegionCode?ReqParameter=547271 - 200 null application/json; charset=utf-8 1041.1637ms
+2026-03-23 14:48:23.634 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - null null
+2026-03-23 14:48:23.634 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:23.635 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetQuestions - 204 null null 1.3983ms
+2026-03-23 14:48:23.640 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - application/json; null
+2026-03-23 14:48:23.641 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:23.642 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:48:23.642 +05:30 [INF] Route matched with {action = "GetQuestions", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetQuestions() on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:23.680 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:23.680 +05:30 [INF] GetQuestions Controller started
+2026-03-23 14:48:23.680 +05:30 [INF] GetQuestions Service started.
+2026-03-23 14:48:23.706 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Answer], [l].[Question]
+FROM [login_question] AS [l]
+ORDER BY NEWID()
+2026-03-23 14:48:23.707 +05:30 [INF] Question retrieved successfully.
+2026-03-23 14:48:23.707 +05:30 [INF] Serialized question details.
+2026-03-23 14:48:23.707 +05:30 [INF] Question details encrypted successfully & GetQuestions Service Ended.
+2026-03-23 14:48:23.707 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 27.2877ms.
+2026-03-23 14:48:23.707 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:23.708 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification) in 65.0517ms
+2026-03-23 14:48:23.708 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetQuestions (Surprise_Cash_Verification)'
+2026-03-23 14:48:23.708 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/Account/GetQuestions - 200 null application/json; charset=utf-8 68.2229ms
+2026-03-23 14:48:42.628 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/validateDomainUser - null null
+2026-03-23 14:48:42.629 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:42.629 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/validateDomainUser - 204 null null 0.8384ms
+2026-03-23 14:48:42.774 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Account/validateDomainUser - application/json 167
+2026-03-23 14:48:42.774 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:42.775 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification)'
+2026-03-23 14:48:42.775 +05:30 [INF] Route matched with {action = "validateDomainUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] validateDomainUser(Surprise_Cash_Verification.Mappers.DTO.UserRequest) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:42.789 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:42.789 +05:30 [INF] validateDomainUser Controller started
+2026-03-23 14:48:42.790 +05:30 [INF] validateUser Service started
+2026-03-23 14:48:42.790 +05:30 [INF] Decrypted user_id: 670064
+2026-03-23 14:48:42.790 +05:30 [INF] Captcha validation passed for user: 670064
+2026-03-23 14:48:42.790 +05:30 [INF] Sending request to AD API for user validation.
+2026-03-23 14:48:42.914 +05:30 [INF] Received response from AD API.
+2026-03-23 14:48:42.914 +05:30 [INF] User validated successfully: 670064
+2026-03-23 14:48:42.914 +05:30 [INF] Entered: InsertToken: Jm8F61WP9L8Dx1HP988E2Q==
+2026-03-23 14:48:42.940 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[:user_USERID_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "u"."REF_NO", "u"."HASH_TOKEN", "u"."LASTTOKEN", "u"."USERID", "u"."USERNAME"
+FROM "USER_TOKEN" "u"
+WHERE "u"."USERID" = :user_USERID_0
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:42.940 +05:30 [INF] USER_TOKEN response: Surprise_Cash_Verification.Models.USER_TOKEN
+2026-03-23 14:48:42.940 +05:30 [INF] InsertToken status: True
+2026-03-23 14:48:42.940 +05:30 [WRN] Previous session exists, Please Clear for user: 670064
+2026-03-23 14:48:42.941 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 151.8936ms.
+2026-03-23 14:48:42.941 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:42.941 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification) in 165.9647ms
+2026-03-23 14:48:42.941 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification)'
+2026-03-23 14:48:42.941 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Account/validateDomainUser - 200 null application/json; charset=utf-8 167.7206ms
+2026-03-23 14:48:44.407 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/LogOut?userId=670064 - null null
+2026-03-23 14:48:44.407 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:44.407 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/LogOut?userId=670064 - 204 null null 0.6149ms
+2026-03-23 14:48:44.408 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/Account/LogOut?userId=670064 - application/json; null
+2026-03-23 14:48:44.409 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:44.409 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.LogOut (Surprise_Cash_Verification)'
+2026-03-23 14:48:44.413 +05:30 [INF] Route matched with {action = "LogOut", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogOut(System.String) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:44.427 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.LogOut (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:44.459 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[:EncryptString_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "u"."REF_NO", "u"."HASH_TOKEN", "u"."LASTTOKEN", "u"."USERID", "u"."USERNAME"
+FROM "USER_TOKEN" "u"
+WHERE "u"."USERID" = :EncryptString_0
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:44.498 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[:EncryptString_0_rewritten='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "u"."REF_NO", "u"."HASH_TOKEN", "u"."LASTTOKEN", "u"."USERID", "u"."USERNAME"
+FROM "USER_TOKEN" "u"
+WHERE "u"."USERID" LIKE :EncryptString_0_rewritten ESCAPE '\'
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:44.541 +05:30 [INF] Executed DbCommand (34ms) [Parameters=[:p0='?' (DbType = Int32), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+DELETE FROM "USER_TOKEN"
+WHERE "REF_NO" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2026-03-23 14:48:44.583 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.LogOut (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 156.2655ms.
+2026-03-23 14:48:44.584 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:44.584 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.LogOut (Surprise_Cash_Verification) in 170.9ms
+2026-03-23 14:48:44.584 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.LogOut (Surprise_Cash_Verification)'
+2026-03-23 14:48:44.584 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/Account/LogOut?userId=670064 - 200 null application/json; charset=utf-8 175.4451ms
+2026-03-23 14:48:46.236 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Account/validateDomainUser - application/json 167
+2026-03-23 14:48:46.237 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.237 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.237 +05:30 [INF] Route matched with {action = "validateDomainUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] validateDomainUser(Surprise_Cash_Verification.Mappers.DTO.UserRequest) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:46.250 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:46.250 +05:30 [INF] validateDomainUser Controller started
+2026-03-23 14:48:46.250 +05:30 [INF] validateUser Service started
+2026-03-23 14:48:46.250 +05:30 [INF] Decrypted user_id: 670064
+2026-03-23 14:48:46.250 +05:30 [INF] Captcha validation passed for user: 670064
+2026-03-23 14:48:46.250 +05:30 [INF] Sending request to AD API for user validation.
+2026-03-23 14:48:46.376 +05:30 [INF] Received response from AD API.
+2026-03-23 14:48:46.377 +05:30 [INF] User validated successfully: 670064
+2026-03-23 14:48:46.377 +05:30 [INF] Entered: InsertToken: Jm8F61WP9L8Dx1HP988E2Q==
+2026-03-23 14:48:46.406 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[:user_USERID_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "u"."REF_NO", "u"."HASH_TOKEN", "u"."LASTTOKEN", "u"."USERID", "u"."USERNAME"
+FROM "USER_TOKEN" "u"
+WHERE "u"."USERID" = :user_USERID_0
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:46.407 +05:30 [INF] USER_TOKEN response: 
+2026-03-23 14:48:46.432 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[:p0='?' (Size = 2000), :p1='?' (Size = 2000), :p2='?' (Size = 2000), :p3='?' (Size = 2000), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rUSER_TOKEN_0" IS RECORD
+(
+"REF_NO" NUMBER(10)
+);
+TYPE "tUSER_TOKEN_0" IS TABLE OF "rUSER_TOKEN_0";
+"lUSER_TOKEN_0" "tUSER_TOKEN_0";
+
+BEGIN
+
+"lUSER_TOKEN_0" := "tUSER_TOKEN_0"();
+"lUSER_TOKEN_0".extend(1);
+INSERT INTO "USER_TOKEN" ("HASH_TOKEN", "LASTTOKEN", "USERID", "USERNAME")
+VALUES (:p0, :p1, :p2, :p3)
+RETURNING "REF_NO" INTO "lUSER_TOKEN_0"(1)."REF_NO";
+OPEN :cur0 FOR SELECT "lUSER_TOKEN_0"(1)."REF_NO" FROM DUAL;
+
+END;
+2026-03-23 14:48:46.477 +05:30 [INF] InsertToken status: False
+2026-03-23 14:48:46.477 +05:30 [INF] User details encrypted successfully.
+2026-03-23 14:48:46.500 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ACC_NUM], [s].[BR_CODE], [s].[DEPTID], [s].[DEPT_ID_DESC], [s].[DIVISION_CODE], [s].[DIVISION_NAME], [s].[EMP_DATE_OF_BIRTH], [s].[EMP_DESGN], [s].[EMP_DESGN_DESC], [s].[EMP_ID], [s].[EMP_JOINING_DATE], [s].[EMP_NAME], [s].[EMP_SCALE_CODE], [s].[EMP_SCALE_DESCR], [s].[EXPECTED_END_DATE], [s].[LOCATION], [s].[LOCATION_DESC], [s].[POSTING_DATE], [s].[REGION_CODE], [s].[REGION_NAME], [s].[SEX]
+FROM (
+    select * from STAFF_DETAILS  where EMP_DESGN in ('4206','4254','4255','5101','5106','5254','5255') and LOCATION_DESC like 'RO -%'
+) AS [s]
+2026-03-23 14:48:46.536 +05:30 [INF] Executed DbCommand (35ms) [Parameters=[:userId_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "b"."REFNO", "b"."BRANCH_CODE", "b"."BRANCH_USERID", "b"."CREATED_BY", "b"."CREATED_ON", "b"."RO_CODE", "b"."RO_USERID", "b"."STATUS", "b"."UNIQUEID"
+FROM "BRANCH_USER_ACCESS" "b"
+WHERE "b"."BRANCH_USERID" = :userId_0
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:46.536 +05:30 [INF] validateUser Service Ended with Success
+2026-03-23 14:48:46.537 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 286.3209ms.
+2026-03-23 14:48:46.537 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:46.537 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification) in 299.5366ms
+2026-03-23 14:48:46.537 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.validateDomainUser (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.538 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Account/validateDomainUser - 200 null application/json; charset=utf-8 301.0832ms
+2026-03-23 14:48:46.753 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX19/LIN+aT/0p5uOkS1cTnIc/3vzF8rXKlt2scmQ78fPSIwkwn1aRW0mxt2f6NGDL/6pGkZly3bvKj1QprN+ckvDu2MROQX+uzpxS3X4+npEr1ahNTZmv5E4n+CevudhZXirkPs8PNS6zcpQo0qwE9Dj2Yd4ONvC6nL9MuuPLpedpWCSBpzDw9r0h+hkEfHlclfspxVyRevSUJqc3IT42EcJP0bSTLX+9+hiHaJPDn961FpcFNX59+91PJ/CzbM3Eupt85cIO6i3J3f7VTZIvZ/h6QxKdurcFQLGm53GkykcSPxcuNUPssIcZ+ZzYHrIXLL/1yHLnhOJblJzyQDEoqEBmH9RlXGcRRcC3L7zSoeNYyFb6Ed57jy/QwwBnx8N9bjKtOlfSjcYoJxEVONNGWZC1+7C0KIl8EHZeJfYsKtQE/Gnkw+kiR06Qf8/7DdwMHsq7y0lR0TqYRebSIRth0MbKGhWOBT94UwSecNb/JTVifVKlIhbPx3FIhgmp2P5zh8QfWikIgxqSaeuoWASViGAQUQVMMF7ZNL/Wrcambkd1IicBQLBxeIncgHYqA/mmnEjhbpRDWWXImcoJDm9ltAWz/s8PZYQuBqK5v/LeyxUR698SFzDxOLBQ4GJAuEaEfo1hqeBohBuClK7lbEqvctq5IV6jerzQVc= - null null
+2026-03-23 14:48:46.753 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.753 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX19/LIN+aT/0p5uOkS1cTnIc/3vzF8rXKlt2scmQ78fPSIwkwn1aRW0mxt2f6NGDL/6pGkZly3bvKj1QprN+ckvDu2MROQX+uzpxS3X4+npEr1ahNTZmv5E4n+CevudhZXirkPs8PNS6zcpQo0qwE9Dj2Yd4ONvC6nL9MuuPLpedpWCSBpzDw9r0h+hkEfHlclfspxVyRevSUJqc3IT42EcJP0bSTLX+9+hiHaJPDn961FpcFNX59+91PJ/CzbM3Eupt85cIO6i3J3f7VTZIvZ/h6QxKdurcFQLGm53GkykcSPxcuNUPssIcZ+ZzYHrIXLL/1yHLnhOJblJzyQDEoqEBmH9RlXGcRRcC3L7zSoeNYyFb6Ed57jy/QwwBnx8N9bjKtOlfSjcYoJxEVONNGWZC1+7C0KIl8EHZeJfYsKtQE/Gnkw+kiR06Qf8/7DdwMHsq7y0lR0TqYRebSIRth0MbKGhWOBT94UwSecNb/JTVifVKlIhbPx3FIhgmp2P5zh8QfWikIgxqSaeuoWASViGAQUQVMMF7ZNL/Wrcambkd1IicBQLBxeIncgHYqA/mmnEjhbpRDWWXImcoJDm9ltAWz/s8PZYQuBqK5v/LeyxUR698SFzDxOLBQ4GJAuEaEfo1hqeBohBuClK7lbEqvctq5IV6jerzQVc= - 204 null null 0.4168ms
+2026-03-23 14:48:46.754 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX19/LIN+aT/0p5uOkS1cTnIc/3vzF8rXKlt2scmQ78fPSIwkwn1aRW0mxt2f6NGDL/6pGkZly3bvKj1QprN+ckvDu2MROQX+uzpxS3X4+npEr1ahNTZmv5E4n+CevudhZXirkPs8PNS6zcpQo0qwE9Dj2Yd4ONvC6nL9MuuPLpedpWCSBpzDw9r0h+hkEfHlclfspxVyRevSUJqc3IT42EcJP0bSTLX+9+hiHaJPDn961FpcFNX59+91PJ/CzbM3Eupt85cIO6i3J3f7VTZIvZ/h6QxKdurcFQLGm53GkykcSPxcuNUPssIcZ+ZzYHrIXLL/1yHLnhOJblJzyQDEoqEBmH9RlXGcRRcC3L7zSoeNYyFb6Ed57jy/QwwBnx8N9bjKtOlfSjcYoJxEVONNGWZC1+7C0KIl8EHZeJfYsKtQE/Gnkw+kiR06Qf8/7DdwMHsq7y0lR0TqYRebSIRth0MbKGhWOBT94UwSecNb/JTVifVKlIhbPx3FIhgmp2P5zh8QfWikIgxqSaeuoWASViGAQUQVMMF7ZNL/Wrcambkd1IicBQLBxeIncgHYqA/mmnEjhbpRDWWXImcoJDm9ltAWz/s8PZYQuBqK5v/LeyxUR698SFzDxOLBQ4GJAuEaEfo1hqeBohBuClK7lbEqvctq5IV6jerzQVc= - null 0
+2026-03-23 14:48:46.755 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.755 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.755 +05:30 [INF] Route matched with {action = "GetStaffDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStaffDetails(System.String) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:46.770 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:46.770 +05:30 [INF] GetStaffDetails Controller started
+2026-03-23 14:48:46.770 +05:30 [INF] GetStaffDetails Service Started.
+2026-03-23 14:48:46.770 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX19Do2cWH8rVpD31sgNC63n0N2n6K5ClVUM48yhHiouOW67PtNG6924bBkXV5qO8SaAMqRRMoH81m9DYO5W9q6bnDDvZoGvBNP0zys8asBcXfzq0m9rmkGoHPrDlePw/XVWFvj6jf1QNqAm000nLA/xZYx/YC8h9wBPR4RdXO2jJqle6tlYVfpfqqQndM4DYS18tFtOfKCZ4I6BkZCkgmKnZOayLTpMq5tyP1qtWw5sPCsYfHVDNvKSuk0a7y4S6xof5PefdW90QO6F5zYfp0WJsAgDBOnfd/jvgtqVTUpejB9pdTTMo9TtRSlL9lzrhS1IjvaXlaSGtU66QXkQMMYrqaamkM3d/PMafrpUubStmqhnWfOXBwngie4G/9tGRITk+vbLulcG64hLUasEaGMLNvNvrpEQ4x1rbsH4q9jubxOkSygAJb16bQ8BWmT0E0hpvx5KqibXc9JSg3FpZJFalKOCD+883IWlRTjQpYROXMpGHSWjnAg25pTHMqsanBQ6VvHf5lTJ+2pNrV/dwkiuwpqg0hpgDJDPtQLt6XZG2cpz3/bDLrLsrUxlAw4BaICMdG04HE5H/GXN3CH0iMYHn6cY1EbLDQF995YkTtTzimhvwmCofWvQzS2bvluR2WlTxOSb2gUve+dy+MeUQEDEAwDzN5DD7OyE= - null null
+2026-03-23 14:48:46.771 +05:30 [INF] GetStaffDetails Service decrypted EMP_ID: 670064
+2026-03-23 14:48:46.771 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.771 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX19Do2cWH8rVpD31sgNC63n0N2n6K5ClVUM48yhHiouOW67PtNG6924bBkXV5qO8SaAMqRRMoH81m9DYO5W9q6bnDDvZoGvBNP0zys8asBcXfzq0m9rmkGoHPrDlePw/XVWFvj6jf1QNqAm000nLA/xZYx/YC8h9wBPR4RdXO2jJqle6tlYVfpfqqQndM4DYS18tFtOfKCZ4I6BkZCkgmKnZOayLTpMq5tyP1qtWw5sPCsYfHVDNvKSuk0a7y4S6xof5PefdW90QO6F5zYfp0WJsAgDBOnfd/jvgtqVTUpejB9pdTTMo9TtRSlL9lzrhS1IjvaXlaSGtU66QXkQMMYrqaamkM3d/PMafrpUubStmqhnWfOXBwngie4G/9tGRITk+vbLulcG64hLUasEaGMLNvNvrpEQ4x1rbsH4q9jubxOkSygAJb16bQ8BWmT0E0hpvx5KqibXc9JSg3FpZJFalKOCD+883IWlRTjQpYROXMpGHSWjnAg25pTHMqsanBQ6VvHf5lTJ+2pNrV/dwkiuwpqg0hpgDJDPtQLt6XZG2cpz3/bDLrLsrUxlAw4BaICMdG04HE5H/GXN3CH0iMYHn6cY1EbLDQF995YkTtTzimhvwmCofWvQzS2bvluR2WlTxOSb2gUve+dy+MeUQEDEAwDzN5DD7OyE= - 204 null null 1.2198ms
+2026-03-23 14:48:46.776 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX19Do2cWH8rVpD31sgNC63n0N2n6K5ClVUM48yhHiouOW67PtNG6924bBkXV5qO8SaAMqRRMoH81m9DYO5W9q6bnDDvZoGvBNP0zys8asBcXfzq0m9rmkGoHPrDlePw/XVWFvj6jf1QNqAm000nLA/xZYx/YC8h9wBPR4RdXO2jJqle6tlYVfpfqqQndM4DYS18tFtOfKCZ4I6BkZCkgmKnZOayLTpMq5tyP1qtWw5sPCsYfHVDNvKSuk0a7y4S6xof5PefdW90QO6F5zYfp0WJsAgDBOnfd/jvgtqVTUpejB9pdTTMo9TtRSlL9lzrhS1IjvaXlaSGtU66QXkQMMYrqaamkM3d/PMafrpUubStmqhnWfOXBwngie4G/9tGRITk+vbLulcG64hLUasEaGMLNvNvrpEQ4x1rbsH4q9jubxOkSygAJb16bQ8BWmT0E0hpvx5KqibXc9JSg3FpZJFalKOCD+883IWlRTjQpYROXMpGHSWjnAg25pTHMqsanBQ6VvHf5lTJ+2pNrV/dwkiuwpqg0hpgDJDPtQLt6XZG2cpz3/bDLrLsrUxlAw4BaICMdG04HE5H/GXN3CH0iMYHn6cY1EbLDQF995YkTtTzimhvwmCofWvQzS2bvluR2WlTxOSb2gUve+dy+MeUQEDEAwDzN5DD7OyE= - null 0
+2026-03-23 14:48:46.777 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.778 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.778 +05:30 [INF] Route matched with {action = "GetStaffDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStaffDetails(System.String) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:46.793 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:46.793 +05:30 [INF] GetStaffDetails Controller started
+2026-03-23 14:48:46.793 +05:30 [INF] GetStaffDetails Service Started.
+2026-03-23 14:48:46.794 +05:30 [INF] GetStaffDetails Service decrypted EMP_ID: 670064
+2026-03-23 14:48:46.812 +05:30 [INF] Executed DbCommand (38ms) [Parameters=[@__empId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ACC_NUM], [s].[BR_CODE], [s].[DEPTID], [s].[DEPT_ID_DESC], [s].[DIVISION_CODE], [s].[DIVISION_NAME], [s].[EMP_DATE_OF_BIRTH], [s].[EMP_DESGN], [s].[EMP_DESGN_DESC], [s].[EMP_ID], [s].[EMP_JOINING_DATE], [s].[EMP_NAME], [s].[EMP_SCALE_CODE], [s].[EMP_SCALE_DESCR], [s].[EXPECTED_END_DATE], [s].[LOCATION], [s].[LOCATION_DESC], [s].[POSTING_DATE], [s].[REGION_CODE], [s].[REGION_NAME], [s].[SEX]
+FROM [STAFF_DETAILS] AS [s]
+WHERE [s].[EMP_ID] = @__empId_0
+2026-03-23 14:48:46.814 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2026-03-23 14:48:46.834 +05:30 [INF] Executed DbCommand (38ms) [Parameters=[@__empId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ACC_NUM], [s].[BR_CODE], [s].[DEPTID], [s].[DEPT_ID_DESC], [s].[DIVISION_CODE], [s].[DIVISION_NAME], [s].[EMP_DATE_OF_BIRTH], [s].[EMP_DESGN], [s].[EMP_DESGN_DESC], [s].[EMP_ID], [s].[EMP_JOINING_DATE], [s].[EMP_NAME], [s].[EMP_SCALE_CODE], [s].[EMP_SCALE_DESCR], [s].[EXPECTED_END_DATE], [s].[LOCATION], [s].[LOCATION_DESC], [s].[POSTING_DATE], [s].[REGION_CODE], [s].[REGION_NAME], [s].[SEX]
+FROM [STAFF_DETAILS] AS [s]
+WHERE [s].[EMP_ID] = @__empId_0
+2026-03-23 14:48:46.867 +05:30 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ACC_NUM], [s].[BR_CODE], [s].[DEPTID], [s].[DEPT_ID_DESC], [s].[DIVISION_CODE], [s].[DIVISION_NAME], [s].[EMP_DATE_OF_BIRTH], [s].[EMP_DESGN], [s].[EMP_DESGN_DESC], [s].[EMP_ID], [s].[EMP_JOINING_DATE], [s].[EMP_NAME], [s].[EMP_SCALE_CODE], [s].[EMP_SCALE_DESCR], [s].[EXPECTED_END_DATE], [s].[LOCATION], [s].[LOCATION_DESC], [s].[POSTING_DATE], [s].[REGION_CODE], [s].[REGION_NAME], [s].[SEX]
+FROM (
+    select * from STAFF_DETAILS where region_code in
+                        (select region_code from STAFF_DETAILS as s2 where emp_id='670064') and emp_desgn_desc like '%REGIONAL HEAD%'
+) AS [s]
+2026-03-23 14:48:46.867 +05:30 [INF] GetStaffDetails Service Executed regionalHead query
+2026-03-23 14:48:46.867 +05:30 [INF] GetStaffDetails Service Ended Successfully
+2026-03-23 14:48:46.868 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 97.3912ms.
+2026-03-23 14:48:46.868 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:46.868 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification) in 112.6693ms
+2026-03-23 14:48:46.868 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.868 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX19/LIN+aT/0p5uOkS1cTnIc/3vzF8rXKlt2scmQ78fPSIwkwn1aRW0mxt2f6NGDL/6pGkZly3bvKj1QprN+ckvDu2MROQX+uzpxS3X4+npEr1ahNTZmv5E4n+CevudhZXirkPs8PNS6zcpQo0qwE9Dj2Yd4ONvC6nL9MuuPLpedpWCSBpzDw9r0h+hkEfHlclfspxVyRevSUJqc3IT42EcJP0bSTLX+9+hiHaJPDn961FpcFNX59+91PJ/CzbM3Eupt85cIO6i3J3f7VTZIvZ/h6QxKdurcFQLGm53GkykcSPxcuNUPssIcZ+ZzYHrIXLL/1yHLnhOJblJzyQDEoqEBmH9RlXGcRRcC3L7zSoeNYyFb6Ed57jy/QwwBnx8N9bjKtOlfSjcYoJxEVONNGWZC1+7C0KIl8EHZeJfYsKtQE/Gnkw+kiR06Qf8/7DdwMHsq7y0lR0TqYRebSIRth0MbKGhWOBT94UwSecNb/JTVifVKlIhbPx3FIhgmp2P5zh8QfWikIgxqSaeuoWASViGAQUQVMMF7ZNL/Wrcambkd1IicBQLBxeIncgHYqA/mmnEjhbpRDWWXImcoJDm9ltAWz/s8PZYQuBqK5v/LeyxUR698SFzDxOLBQ4GJAuEaEfo1hqeBohBuClK7lbEqvctq5IV6jerzQVc= - 200 null application/json; charset=utf-8 114.0578ms
+2026-03-23 14:48:46.876 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetBranchByZoneRegion?zoneCode=577707&regionCode=547271 - null null
+2026-03-23 14:48:46.877 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.877 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/Account/GetBranchByZoneRegion?zoneCode=577707&regionCode=547271 - 204 null null 0.5872ms
+2026-03-23 14:48:46.878 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/Account/GetBranchByZoneRegion?zoneCode=577707&regionCode=547271 - null 0
+2026-03-23 14:48:46.878 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.879 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetBranchByZoneRegion (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.879 +05:30 [INF] Route matched with {action = "GetBranchByZoneRegion", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBranchByZoneRegion(System.String, System.String) on controller Surprise_Cash_Verification.Controllers.AccountController (Surprise_Cash_Verification).
+2026-03-23 14:48:46.897 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.AccountController.GetBranchByZoneRegion (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:46.897 +05:30 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ACC_NUM], [s].[BR_CODE], [s].[DEPTID], [s].[DEPT_ID_DESC], [s].[DIVISION_CODE], [s].[DIVISION_NAME], [s].[EMP_DATE_OF_BIRTH], [s].[EMP_DESGN], [s].[EMP_DESGN_DESC], [s].[EMP_ID], [s].[EMP_JOINING_DATE], [s].[EMP_NAME], [s].[EMP_SCALE_CODE], [s].[EMP_SCALE_DESCR], [s].[EXPECTED_END_DATE], [s].[LOCATION], [s].[LOCATION_DESC], [s].[POSTING_DATE], [s].[REGION_CODE], [s].[REGION_NAME], [s].[SEX]
+FROM (
+    select * from STAFF_DETAILS where region_code in
+                        (select region_code from STAFF_DETAILS as s2 where emp_id='670064') and emp_desgn_desc like '%REGIONAL HEAD%'
+) AS [s]
+2026-03-23 14:48:46.898 +05:30 [INF] GetStaffDetails Service Executed regionalHead query
+2026-03-23 14:48:46.898 +05:30 [INF] GetStaffDetails Service Ended Successfully
+2026-03-23 14:48:46.898 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 104.6545ms.
+2026-03-23 14:48:46.898 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:46.898 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification) in 120.5256ms
+2026-03-23 14:48:46.898 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetStaffDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.899 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Account/GetStaffDetails?ReqParameter=U2FsdGVkX19Do2cWH8rVpD31sgNC63n0N2n6K5ClVUM48yhHiouOW67PtNG6924bBkXV5qO8SaAMqRRMoH81m9DYO5W9q6bnDDvZoGvBNP0zys8asBcXfzq0m9rmkGoHPrDlePw/XVWFvj6jf1QNqAm000nLA/xZYx/YC8h9wBPR4RdXO2jJqle6tlYVfpfqqQndM4DYS18tFtOfKCZ4I6BkZCkgmKnZOayLTpMq5tyP1qtWw5sPCsYfHVDNvKSuk0a7y4S6xof5PefdW90QO6F5zYfp0WJsAgDBOnfd/jvgtqVTUpejB9pdTTMo9TtRSlL9lzrhS1IjvaXlaSGtU66QXkQMMYrqaamkM3d/PMafrpUubStmqhnWfOXBwngie4G/9tGRITk+vbLulcG64hLUasEaGMLNvNvrpEQ4x1rbsH4q9jubxOkSygAJb16bQ8BWmT0E0hpvx5KqibXc9JSg3FpZJFalKOCD+883IWlRTjQpYROXMpGHSWjnAg25pTHMqsanBQ6VvHf5lTJ+2pNrV/dwkiuwpqg0hpgDJDPtQLt6XZG2cpz3/bDLrLsrUxlAw4BaICMdG04HE5H/GXN3CH0iMYHn6cY1EbLDQF995YkTtTzimhvwmCofWvQzS2bvluR2WlTxOSb2gUve+dy+MeUQEDEAwDzN5DD7OyE= - 200 null application/json; charset=utf-8 123.0043ms
+2026-03-23 14:48:46.902 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetLogInType?emp_desgn=CSA1 - null null
+2026-03-23 14:48:46.902 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.902 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetLogInType?emp_desgn=CSA1 - 204 null null 0.3873ms
+2026-03-23 14:48:46.903 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/SurpriseCashVerification/GetLogInType?emp_desgn=CSA1 - application/json; null
+2026-03-23 14:48:46.903 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.903 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLogInType (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.903 +05:30 [INF] Route matched with {action = "GetLogInType", controller = "SurpriseCashVerification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLogInType(System.String) on controller Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController (Surprise_Cash_Verification).
+2026-03-23 14:48:46.918 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLogInType (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:46.918 +05:30 [INF] GetLogInType Controller Started
+2026-03-23 14:48:46.918 +05:30 [INF] GetLogInTypeAsync Service Started, Request Input emp_desgn is: CSA1
+2026-03-23 14:48:46.922 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[@__zoneCode_0='?' (Size = 4000), @__regionCode_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[BRANCH_AREA], [b].[BRANCH_CODE], [b].[BRANCH_NAME], [b].[BRANCH_NAME_HINDI], [b].[BRANCH_UCD1], [b].[BR_ADD1], [b].[BR_ADD2], [b].[BR_ADD3], [b].[BR_EST_DATE], [b].[PINCODE], [b].[REGION_CODE], [b].[SPL_BR], [b].[STD_CODE], [b].[ZONE_CODE], [b].[region_name], [b].[region_name_hindi], [b].[status], [b].[zone_name_eng]
+FROM [Branch_master] AS [b]
+WHERE [b].[ZONE_CODE] = @__zoneCode_0 AND [b].[REGION_CODE] = @__regionCode_1
+2026-03-23 14:48:46.941 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[:emp_desgn_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "l"."ID", "l"."CREATED_ON", "l"."EMP_DESGN", "l"."EMP_DESGN_DESC", "l"."EMP_ID", "l"."LOCATION", "l"."LOCATION_DESC", "l"."STATUS", "l"."USER_TYPE"
+FROM "LOGIN_TYPE" "l"
+WHERE "l"."EMP_DESGN" = :emp_desgn_0
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:46.941 +05:30 [INF] GetLogInTypeAsync Service response is null
+2026-03-23 14:48:46.942 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLogInType (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 23.7372ms.
+2026-03-23 14:48:46.942 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[Surprise_Cash_Verification.Core.Tables.LOGIN_TYPE, Surprise_Cash_Verification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-23 14:48:46.942 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLogInType (Surprise_Cash_Verification) in 38.5504ms
+2026-03-23 14:48:46.942 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLogInType (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.943 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/SurpriseCashVerification/GetLogInType?emp_desgn=CSA1 - 200 null application/json; charset=utf-8 40.1272ms
+2026-03-23 14:48:46.950 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.AccountController.GetBranchByZoneRegion (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 47.3773ms.
+2026-03-23 14:48:46.951 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetCOLogIn?location=579599&emp_id=670064 - null null
+2026-03-23 14:48:46.951 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[Surprise_Cash_Verification.Core.Tables.Master.Branch_master, Surprise_Cash_Verification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-23 14:48:46.954 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.954 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetCOLogIn?location=579599&emp_id=670064 - 204 null null 3.3141ms
+2026-03-23 14:48:46.955 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.AccountController.GetBranchByZoneRegion (Surprise_Cash_Verification) in 75.9252ms
+2026-03-23 14:48:46.955 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.AccountController.GetBranchByZoneRegion (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.955 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/Account/GetBranchByZoneRegion?zoneCode=577707&regionCode=547271 - 200 null application/json; charset=utf-8 77.4147ms
+2026-03-23 14:48:46.956 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/SurpriseCashVerification/GetCOLogIn?location=579599&emp_id=670064 - application/json; null
+2026-03-23 14:48:46.957 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:46.958 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetCOLogIn (Surprise_Cash_Verification)'
+2026-03-23 14:48:46.962 +05:30 [INF] Route matched with {action = "GetCOLogIn", controller = "SurpriseCashVerification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCOLogIn(System.String, System.String) on controller Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController (Surprise_Cash_Verification).
+2026-03-23 14:48:46.979 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetCOLogIn (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:46.980 +05:30 [INF] GetLogInType Controller Started
+2026-03-23 14:48:46.981 +05:30 [INF] GetCOLogInAsync Service Started, Request Input location is: 579599 and emp_id: 670064
+2026-03-23 14:48:47.007 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[:location_0='?' (Size = 2000), :emp_id_1='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "l"."ID", "l"."CREATED_ON", "l"."EMP_DESGN", "l"."EMP_DESGN_DESC", "l"."EMP_ID", "l"."LOCATION", "l"."LOCATION_DESC", "l"."STATUS", "l"."USER_TYPE"
+FROM "LOGIN_TYPE" "l"
+WHERE (("l"."LOCATION" = :location_0) AND ("l"."EMP_ID" = :emp_id_1))
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:47.008 +05:30 [INF] GetCOLogInAsync Service response is null
+2026-03-23 14:48:47.008 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetCOLogIn (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 28.3783ms.
+2026-03-23 14:48:47.008 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[Surprise_Cash_Verification.Core.Tables.LOGIN_TYPE, Surprise_Cash_Verification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-23 14:48:47.008 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetCOLogIn (Surprise_Cash_Verification) in 45.6837ms
+2026-03-23 14:48:47.008 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetCOLogIn (Surprise_Cash_Verification)'
+2026-03-23 14:48:47.008 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/SurpriseCashVerification/GetCOLogIn?location=579599&emp_id=670064 - 200 null application/json; charset=utf-8 52.8144ms
+2026-03-23 14:48:47.014 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetAnnexureOneDetailsByPFno?ReqParameter=670064&financialYear=2025-26&quarter=Q4 - null null
+2026-03-23 14:48:47.014 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:47.014 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetAnnexureOneDetailsByPFno?ReqParameter=670064&financialYear=2025-26&quarter=Q4 - 204 null null 0.4788ms
+2026-03-23 14:48:47.015 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetAnnexureOneDetailsByPFno?ReqParameter=670064&financialYear=2025-26&quarter=Q4 - null 0
+2026-03-23 14:48:47.015 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:47.016 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureOneDetailsByPFno (Surprise_Cash_Verification)'
+2026-03-23 14:48:47.021 +05:30 [INF] Route matched with {action = "GetAnnexureOneDetailsByPFno", controller = "SurpriseCashVerification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAnnexureOneDetailsByPFno(System.String, System.String, System.String) on controller Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController (Surprise_Cash_Verification).
+2026-03-23 14:48:47.039 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureOneDetailsByPFno (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:47.041 +05:30 [INF] GetAnnexureOneDetailsByPFno Controller Started-Branch SCV report-IO
+2026-03-23 14:48:47.045 +05:30 [INF] GetAnnexureOneDetailsByPFno(Branch SCV report-IO) Service Started financialYear: 2025-26, quater: Q4,a1.BRANCH_PFNO:670064
+2026-03-23 14:48:47.131 +05:30 [INF] Executed DbCommand (63ms) [Parameters=[:ReqParameter_0='?' (Size = 2000), :financialYear_1='?' (Size = 2000), :quarter_2='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."REF_NO", "s"."APPLICATION_DATE", "s"."BRANCH_PFNO", "s"."CREATED_BY", "s"."CREATED_ON", "s"."DELETED_BY", "s"."DELETED_ON", "s"."FINANCIAL_YEAR", "s"."FROM_BRANCH_NAME", "s"."FROM_DYRH_NAME", "s"."FROM_REGION_NAME", "s"."IC_NO", "s"."IC_NO_DATE", "s"."IO_BRANCH_CODE", "s"."IS_DELETED", "s"."MODIFIED_BY", "s"."MODIFIED_ON", "s"."QUATER", "s"."SV_BRANCH_CODE", "s"."TO_BRANCH_OFFICER_BRANCH_NAME", "s"."TO_BRANCH_OFFICER_DESIGNATION", "s"."TO_BRANCH_OFFICER_NAME", "s"."UNIQUE_ID", "s0"."REF_NO", "s0"."ACTION_TAKEN_BRANCH_DATE", "s0"."ACTION_TAKEN_BRANCH_ID", "s0"."ACTION_TAKEN_BY_BRANCH", "s0"."ACTION_TAKEN_BY_CO", "s0"."ACTION_TAKEN_BY_RO", "s0"."ACTION_TAKEN_BY_ZO", "s0"."ACTION_TAKEN_CO_DATE", "s0"."ACTION_TAKEN_CO_ID", "s0"."ACTION_TAKEN_RO_DATE", "s0"."ACTION_TAKEN_RO_ID", "s0"."ACTION_TAKEN_ZO_DATE", "s0"."ACTION_TAKEN_ZO_ID", "s0"."ANNEXURE_COMMENT", "s0"."ANNEXURE_STATUS", "s0"."ANNEXURE_STATUS_BRANCH", "s0"."ANNEXURE_STATUS_CO", "s0"."ANNEXURE_STATUS_RO", "s0"."ANNEXURE_STATUS_ZO", "s0"."CASH_COUNTING_MACHINE_PROVIDED", "s0"."CASH_COUNTING_MACHINE_PROVIDED_NO", "s0"."CASH_COUNTING_MACHINE_WORKING", "s0"."CASH_COUNTING_MACHINE_WORKING_NO", "s0"."CASH_SELECTION_TYPE", "s0"."CCTV_RECORDING_OF_LAST_90DAYS_AVAILABLE", "s0"."CCTV_RECORDING_OF_LAST_90DAYS_AVAILABLE_NO", "s0"."CCTV_SYSTEM_IS_PROVIDED", "s0"."CCTV_SYSTEM_IS_PROVIDED_NO", "s0"."CCTV_SYSTEM_IS_WORKING", "s0"."CCTV_SYSTEM_IS_WORKING_NO", "s0"."COINS_1", "s0"."COINS_10", "s0"."COINS_2", "s0"."COINS_20", "s0"."COINS_5", "s0"."COINS_50_PAISA", "s0"."CREATED_BY", "s0"."CREATED_ON", "s0"."DATE_OF_PREV_SURPRISE_VERIFICATION", "s0"."DELETED_BY", "s0"."DELETED_ON", "s0"."DISCREPANCIES", "s0"."FINANCIAL_YEAR", "s0"."IP_ADDRESS", "s0"."IS_DELETED", "s0"."IS_DISABLE", "s0"."JOINT_CUSTODIAN_VERIFYING", "s0"."KEPT_UNDER_JOINT_CUSTODY", "s0"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS", "s0"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS_DATE", "s0"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS_NO", "s0"."KEY_REGISTER_KEPT_UNDER_JOINT_CUSTODY", "s0"."KEY_REGISTER_KEPT_UNDER_JOINT_CUSTODY_NO", "s0"."KEY_REGISTER_MASTER_KEY_OF_THE_LOCKERS", "s0"."KEY_REGISTER_MASTER_KEY_OF_THE_LOCKERS_NO", "s0"."KEY_REGISTER_WHETHER_KEY_REGISTER_MAINTAINED", "s0"."KEY_REGISTER_WHETHER_KEY_REGISTER_MAINTAINED_NO", "s0"."MODIFIED_BY", "s0"."MODIFIED_ON", "s0"."MONTHLY_CASH_VERIFICATION_OF_CASH", "s0"."MONTHTYCONSOTIDATEDREPORT", "s0"."MONTHTYCONSOTIDATEDREPORTNO", "s0"."NAME_OF_BRANCH", "s0"."NAME_OF_INSPECTING_OFFICER", "s0"."NOTES_1", "s0"."NOTES_10", "s0"."NOTES_100", "s0"."NOTES_2", "s0"."NOTES_20", "s0"."NOTES_200", "s0"."NOTES_2000", "s0"."NOTES_5", "s0"."NOTES_50", "s0"."NOTES_500", "s0"."NOTE_SORTING_MACHINE_PROVIDED", "s0"."NOTE_SORTING_MACHINE_WORKING", "s0"."NO_OF_POST_PARCELS_HELD_BY_BRANCH", "s0"."OPENING_CLOSING_OF_BUSINESS", "s0"."OPENING_CLOSING_OF_BUSINESS_AMOUNT", "s0"."OTHER_GUIDELINES_COMPILED", "s0"."PERIODICAL_SURPRISE_CHECK", "s0"."PHYSICAL_CASH_IN_ATM_VERIFIED", "s0"."PHYSICAL_CASH_IN_ATM_VERIFIED_DATE", "s0"."PHYSICAL_CASH_IN_ATM_VERIFIED_NO", "s0"."POSTAL_STAMPS", "s0"."POSTAL_STAMPS_AMOUNT", "s0"."POST_PARCELS_HELD_BY_BRANCH", "s0"."QUATER", "s0"."REGION_CODE", "s0"."REGION_NAME", "s0"."SAFETY_SECURITY_FOUND_THAT_BURGLARY_ALARM_SYSTEM", "s0"."SAFETY_SECURITY_FOUND_THAT_BURGLARY_ALARM_SYSTEM_NO", "s0"."SAFETY_SECURITY_FOUND_THAT_DOOR_OF_NETWORK_ROOM", "s0"."SAFETY_SECURITY_FOUND_THAT_STRONG_ROOM_DOOR_OF_BRANCH", "s0"."SAFE_CUSTODY_RECEIPT", "s0"."SAFE_CUSTODY_RECEIPTNAME", "s0"."SAFE_CUSTODY_RECEIPT_DATED", "s0"."SECURITY_GUARD_IS_INVOLVED", "s0"."SECURITY_GUARD_IS_INVOLVED_DETAILS", "s0"."SOILED_NOTES_AMT", "s0"."STAMPED_AGREEMENT_FORMS", "s0"."STAMPED_AGREEMENT_FORMS_AMOUNT", "s0"."SV_BRANCH_CODE", "s0"."UNIQUE_ID", "s0"."WHETHERAVAITABITITYOFNAM", "s0"."WHETHERAVAITABITITYOFNAMNO", "s0"."WHETHERFIR", "s0"."WHETHERFIRNO", "s0"."WHETHERMACHINESORTEDNOTES", "s0"."WHETHERMACHINESORTEDNOTESNO", "s0"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH", "s0"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH_DATE", "s0"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH_NO", "s0"."WHETHER_ULTRAVIOLET_LAMP_PROVIDED", "s0"."WHETHER_ULTRAVIOLET_LAMP_PROVIDED_NO", "s0"."WHETHER_ULTRAVIOLET_LAMP_WORKING", "s0"."WHETHER_ULTRAVIOLET_LAMP_WORKING_NO", "s0"."ZONE_CODE", "s0"."ZONE_NAME"
+FROM "SURPRISE_CASH_ANNEXURE_1" "s"
+LEFT JOIN "SURPRISE_CASH_ANNEXURE_2" "s0" ON "s"."REF_NO" = "s0"."REF_NO"
+WHERE (((((((("s"."BRANCH_PFNO" = :ReqParameter_0) AND ("s"."IS_DELETED" = N'N'))) AND ("s0"."IS_DELETED" = N'N'))) AND ("s0"."FINANCIAL_YEAR" = :financialYear_1))) AND ("s0"."QUATER" = :quarter_2))
+2026-03-23 14:48:47.132 +05:30 [INF] GetAnnexureOneDetailsByPFno Service response count: 3
+2026-03-23 14:48:47.133 +05:30 [INF] GetAnnexureOneDetailsByPFno Service Ended
+2026-03-23 14:48:47.133 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureOneDetailsByPFno (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 94.0979ms.
+2026-03-23 14:48:47.133 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:47.133 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureOneDetailsByPFno (Surprise_Cash_Verification) in 112.2222ms
+2026-03-23 14:48:47.133 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureOneDetailsByPFno (Surprise_Cash_Verification)'
+2026-03-23 14:48:47.134 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetAnnexureOneDetailsByPFno?ReqParameter=670064&financialYear=2025-26&quarter=Q4 - 200 null application/json; charset=utf-8 118.6961ms
+2026-03-23 14:48:49.469 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByBranchCode?ReqParameter=61280 - null null
+2026-03-23 14:48:49.469 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:49.469 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByBranchCode?ReqParameter=61280 - 204 null null 0.4338ms
+2026-03-23 14:48:49.470 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByBranchCode?ReqParameter=61280 - null 0
+2026-03-23 14:48:49.470 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:49.470 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByBranchCode (Surprise_Cash_Verification)'
+2026-03-23 14:48:49.474 +05:30 [INF] Route matched with {action = "GetAnnexureTwoDetailsByBranchCode", controller = "SurpriseCashVerification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAnnexureTwoDetailsByBranchCode(Int32) on controller Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController (Surprise_Cash_Verification).
+2026-03-23 14:48:49.499 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByBranchCode (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:49.500 +05:30 [INF] GetAnnexureTwoDetailsByBranchCode Controller Started-Branch SCV report- View(IO,DYRH,BH,ZO,CO
+2026-03-23 14:48:49.501 +05:30 [INF] GetAnnexureTwoDetailsByBranchCode(Branch SCV report- View-IO,DYRH,BH,ZO,CO) Service Started: a2.REF_NO:61280
+2026-03-23 14:48:49.545 +05:30 [INF] Executed DbCommand (31ms) [Parameters=[:ReqParameter_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."REF_NO", "s"."ACTION_TAKEN_BRANCH_DATE", "s"."ACTION_TAKEN_BRANCH_ID", "s"."ACTION_TAKEN_BY_BRANCH", "s"."ACTION_TAKEN_BY_CO", "s"."ACTION_TAKEN_BY_RO", "s"."ACTION_TAKEN_BY_ZO", "s"."ACTION_TAKEN_CO_DATE", "s"."ACTION_TAKEN_CO_ID", "s"."ACTION_TAKEN_RO_DATE", "s"."ACTION_TAKEN_RO_ID", "s"."ACTION_TAKEN_ZO_DATE", "s"."ACTION_TAKEN_ZO_ID", "s"."ANNEXURE_COMMENT", "s"."ANNEXURE_STATUS", "s"."ANNEXURE_STATUS_BRANCH", "s"."ANNEXURE_STATUS_CO", "s"."ANNEXURE_STATUS_RO", "s"."ANNEXURE_STATUS_ZO", "s"."CASH_COUNTING_MACHINE_PROVIDED", "s"."CASH_COUNTING_MACHINE_PROVIDED_NO", "s"."CASH_COUNTING_MACHINE_WORKING", "s"."CASH_COUNTING_MACHINE_WORKING_NO", "s"."CASH_SELECTION_TYPE", "s"."CCTV_RECORDING_OF_LAST_90DAYS_AVAILABLE", "s"."CCTV_RECORDING_OF_LAST_90DAYS_AVAILABLE_NO", "s"."CCTV_SYSTEM_IS_PROVIDED", "s"."CCTV_SYSTEM_IS_PROVIDED_NO", "s"."CCTV_SYSTEM_IS_WORKING", "s"."CCTV_SYSTEM_IS_WORKING_NO", "s"."COINS_1", "s"."COINS_10", "s"."COINS_2", "s"."COINS_20", "s"."COINS_5", "s"."COINS_50_PAISA", "s"."CREATED_BY", "s"."CREATED_ON", "s"."DATE_OF_PREV_SURPRISE_VERIFICATION", "s"."DELETED_BY", "s"."DELETED_ON", "s"."DISCREPANCIES", "s"."FINANCIAL_YEAR", "s"."IP_ADDRESS", "s"."IS_DELETED", "s"."IS_DISABLE", "s"."JOINT_CUSTODIAN_VERIFYING", "s"."KEPT_UNDER_JOINT_CUSTODY", "s"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS", "s"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS_DATE", "s"."KEY_REGISTER_DUPTICATE_SET_OF_CASH_KEYS_NO", "s"."KEY_REGISTER_KEPT_UNDER_JOINT_CUSTODY", "s"."KEY_REGISTER_KEPT_UNDER_JOINT_CUSTODY_NO", "s"."KEY_REGISTER_MASTER_KEY_OF_THE_LOCKERS", "s"."KEY_REGISTER_MASTER_KEY_OF_THE_LOCKERS_NO", "s"."KEY_REGISTER_WHETHER_KEY_REGISTER_MAINTAINED", "s"."KEY_REGISTER_WHETHER_KEY_REGISTER_MAINTAINED_NO", "s"."MODIFIED_BY", "s"."MODIFIED_ON", "s"."MONTHLY_CASH_VERIFICATION_OF_CASH", "s"."MONTHTYCONSOTIDATEDREPORT", "s"."MONTHTYCONSOTIDATEDREPORTNO", "s"."NAME_OF_BRANCH", "s"."NAME_OF_INSPECTING_OFFICER", "s"."NOTES_1", "s"."NOTES_10", "s"."NOTES_100", "s"."NOTES_2", "s"."NOTES_20", "s"."NOTES_200", "s"."NOTES_2000", "s"."NOTES_5", "s"."NOTES_50", "s"."NOTES_500", "s"."NOTE_SORTING_MACHINE_PROVIDED", "s"."NOTE_SORTING_MACHINE_WORKING", "s"."NO_OF_POST_PARCELS_HELD_BY_BRANCH", "s"."OPENING_CLOSING_OF_BUSINESS", "s"."OPENING_CLOSING_OF_BUSINESS_AMOUNT", "s"."OTHER_GUIDELINES_COMPILED", "s"."PERIODICAL_SURPRISE_CHECK", "s"."PHYSICAL_CASH_IN_ATM_VERIFIED", "s"."PHYSICAL_CASH_IN_ATM_VERIFIED_DATE", "s"."PHYSICAL_CASH_IN_ATM_VERIFIED_NO", "s"."POSTAL_STAMPS", "s"."POSTAL_STAMPS_AMOUNT", "s"."POST_PARCELS_HELD_BY_BRANCH", "s"."QUATER", "s"."REGION_CODE", "s"."REGION_NAME", "s"."SAFETY_SECURITY_FOUND_THAT_BURGLARY_ALARM_SYSTEM", "s"."SAFETY_SECURITY_FOUND_THAT_BURGLARY_ALARM_SYSTEM_NO", "s"."SAFETY_SECURITY_FOUND_THAT_DOOR_OF_NETWORK_ROOM", "s"."SAFETY_SECURITY_FOUND_THAT_STRONG_ROOM_DOOR_OF_BRANCH", "s"."SAFE_CUSTODY_RECEIPT", "s"."SAFE_CUSTODY_RECEIPTNAME", "s"."SAFE_CUSTODY_RECEIPT_DATED", "s"."SECURITY_GUARD_IS_INVOLVED", "s"."SECURITY_GUARD_IS_INVOLVED_DETAILS", "s"."SOILED_NOTES_AMT", "s"."STAMPED_AGREEMENT_FORMS", "s"."STAMPED_AGREEMENT_FORMS_AMOUNT", "s"."SV_BRANCH_CODE", "s"."UNIQUE_ID", "s"."WHETHERAVAITABITITYOFNAM", "s"."WHETHERAVAITABITITYOFNAMNO", "s"."WHETHERFIR", "s"."WHETHERFIRNO", "s"."WHETHERMACHINESORTEDNOTES", "s"."WHETHERMACHINESORTEDNOTESNO", "s"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH", "s"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH_DATE", "s"."WHETHER_BRANCH_HAS_CONDUCTED_SURPRISE_CASH_NO", "s"."WHETHER_ULTRAVIOLET_LAMP_PROVIDED", "s"."WHETHER_ULTRAVIOLET_LAMP_PROVIDED_NO", "s"."WHETHER_ULTRAVIOLET_LAMP_WORKING", "s"."WHETHER_ULTRAVIOLET_LAMP_WORKING_NO", "s"."ZONE_CODE", "s"."ZONE_NAME"
+FROM "SURPRISE_CASH_ANNEXURE_2" "s"
+WHERE "s"."REF_NO" = :ReqParameter_0
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:49.545 +05:30 [INF] Executed SurpriseCashAnnexureTwo query GetAnnexureTwoDetailsByBranchCode Service
+2026-03-23 14:48:49.546 +05:30 [INF] GetAnnexureTwoDetailsByBranchCode Service Ended
+2026-03-23 14:48:49.546 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByBranchCode (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 46.7333ms.
+2026-03-23 14:48:49.546 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:49.546 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByBranchCode (Surprise_Cash_Verification) in 71.9444ms
+2026-03-23 14:48:49.546 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetAnnexureTwoDetailsByBranchCode (Surprise_Cash_Verification)'
+2026-03-23 14:48:49.546 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetAnnexureTwoDetailsByBranchCode?ReqParameter=61280 - 200 null application/json; charset=utf-8 76.6755ms
+2026-03-23 14:48:49.564 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetLatestSurpriseDate?svBranchCode=554456 - null null
+2026-03-23 14:48:49.564 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:49.564 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetLatestSurpriseDate?svBranchCode=554456 - 204 null null 0.2925ms
+2026-03-23 14:48:49.565 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7117/api/SurpriseCashVerification/GetLatestSurpriseDate?svBranchCode=554456 - application/json; null
+2026-03-23 14:48:49.565 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:49.565 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLatestSurpriseDate (Surprise_Cash_Verification)'
+2026-03-23 14:48:49.566 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetDenominationsCashDetails - null null
+2026-03-23 14:48:49.566 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:49.566 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7117/api/SurpriseCashVerification/GetDenominationsCashDetails - 204 null null 0.2314ms
+2026-03-23 14:48:49.568 +05:30 [INF] Route matched with {action = "GetLatestSurpriseDate", controller = "SurpriseCashVerification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatestSurpriseDate(System.String) on controller Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController (Surprise_Cash_Verification).
+2026-03-23 14:48:49.582 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLatestSurpriseDate (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:49.673 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[:svBranchCode_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."ACTION_TAKEN_CO_DATE"
+FROM "SURPRISE_CASH_ANNEXURE_2" "s"
+WHERE (("s"."SV_BRANCH_CODE" = :svBranchCode_0) AND ("s"."ANNEXURE_STATUS_CO" IN (N'Complied by CO', N'Complied by ZO', N'Complied By CO', N'Complied By ZO')))
+ORDER BY "s"."REF_NO" DESC
+FETCH FIRST 1 ROWS ONLY
+2026-03-23 14:48:49.675 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLatestSurpriseDate (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 93.4619ms.
+2026-03-23 14:48:49.675 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-23 14:48:49.675 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLatestSurpriseDate (Surprise_Cash_Verification) in 106.8441ms
+2026-03-23 14:48:49.675 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetLatestSurpriseDate (Surprise_Cash_Verification)'
+2026-03-23 14:48:49.676 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7117/api/SurpriseCashVerification/GetLatestSurpriseDate?svBranchCode=554456 - 200 null application/json; charset=utf-8 110.6705ms
+2026-03-23 14:48:49.732 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetDenominationsCashDetails - application/json 45
+2026-03-23 14:48:49.733 +05:30 [INF] CORS policy execution successful.
+2026-03-23 14:48:49.733 +05:30 [INF] Executing endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetDenominationsCashDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:49.738 +05:30 [INF] Route matched with {action = "GetDenominationsCashDetails", controller = "SurpriseCashVerification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDenominationsCashDetails(Surprise_Cash_Verification.Models.CashRequest) on controller Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController (Surprise_Cash_Verification).
+2026-03-23 14:48:49.756 +05:30 [INF] Executing action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetDenominationsCashDetails (Surprise_Cash_Verification) - Validation state: "Valid"
+2026-03-23 14:48:49.757 +05:30 [INF] CashDetails Controller Started
+2026-03-23 14:48:49.828 +05:30 [INF] GetCashDetails Service Started, Request Input is: {"BranchCode":"554456","SelectionType":"BOD"}
+2026-03-23 14:48:49.828 +05:30 [INF] API_key: f1cc1d13accf4150bf66ecf498068228
+2026-03-23 14:48:49.828 +05:30 [INF] Enc_URL: https://app2.unionbankofindia.co.in/EncryDecryTomcat/EncryDecry256/get-encryptionpayload
+2026-03-23 14:48:49.828 +05:30 [INF] Dec_URL: https://app2.unionbankofindia.co.in/EncryDecryTomcat/EncryDecry256/get-decryptedpayload
+2026-03-23 14:48:49.850 +05:30 [INF] Request Obj ===>{
+  "requestType": "0",
+  "msgid": "144820264982",
+  "data": {
+    "requestType": "cash_denonmination",
+    "requestData": {
+      "Branch_code": "554456",
+      "Selection_type": "BOD"
+    }
+  }
+}
+2026-03-23 14:48:49.850 +05:30 [INF] EncRequestSurprise_Cash_Verification.Services.SurpriseCashVerificationService+Request
+2026-03-23 14:48:50.100 +05:30 [INF] Json encrypted Response :{
+  "reqdata": "bfd96a8ea94b9c0d27399e4c96a74f44 2c4ed0eb39b97e884a47fe729fb3f56c ftkz2gInZtlBqHocHBaFoMXvK0B4q8ynnR1rglYxoiTERDOZcSJkHV9k3RzKq82LXC5/N/AaXbNFEpYO8EsfzJi3GExmj0ohX/HRkdzBxpKueSGA5mpYmwdu52fapEA6y4BIufDhow5NccPjuXbpvnYeNjt+ITbxT2BxW734EU1DC1UgbpL7UnUrfNzRpy0xrCZWJ4VHCCKIzDZYu+lDX9wpR9eEhHNJu7HvdESrwM26PbRKNtaFhINSz7kJmKL+ohkHwci4vqizTbSYIrykCQ==",
+  "msgid": "144820264982"
+}
+2026-03-23 14:48:50.100 +05:30 [INF] CashDetails apiUrl :https://apimuat.unionbankofindia.co.in/BankServices/handlersb/1/CBSSurpriseCashVerChannel/CBSSurpriseCashVerServiceGroup/FetchCashDetails
+2026-03-23 14:48:51.514 +05:30 [INF] Request Obj to finacle===>{"data":"207914d2a3383b59ed1986b82101afc9 1540084759f16237579a3448150666ff X85ks5U4z5njrkGqXUuv3ZLZo4Ivx5Nj7oOtRt2oPJd3smEZ+hJtixqRuOuvHURFQacsgPfRJA8/FBS6kA9M3mlWhKJvhKzV6e4pWd0Kc2uJCPag8vSYRLhhJU7olw0tfQQDq2C7MNrYELpKPxfss+T8vHU2tYzp8RvBma8qpGVx4lr3io/rb81xZfYycj9Hzd7T0rJBwNcFJBMLd7VmIva58eF1vruON+62OYTtIrsPInz+LhHLCG6gSWg0JQRCDho5GMF3EqsjgCQDuuOdZQ0opTx29QyqcAbla22skz4ipilj4wtCoMC9pmwP10xsqKaDSb9uW+fD6FeyWDZR2uUkChgVLYE7a3PdIv63oip3eNVRX33Z0e3vULstHHEJ20eJnHQt8cK4E5Wa1wTuDpTpyL1ISNDfErZuYrdS24qMA/nm7TlEP/0ntWqTE5ikoMkkqVenEKIRrBGzepAHd46+swdzVZ6VPWyXRXcwrLoDdSbn+mmXqZbvEAdMR++//8W0SVsXstMieEdxotl6C8DgiDg4xlGIOoskz8FTJqOXHkHcwolmwEun1OoiJYkf","key":"f1cc1d13accf4150bf66ecf498068228"}
+2026-03-23 14:48:51.609 +05:30 [INF] Response from finacle===>"{\"data\":\"Pls Pass the AuthorizationHeader\",\"msgrrn\":\"2bd4811bb899ed7700fd72b84b5c15dd e17410eab0672c27b2b2cc0d25f68eb5 c3bw06BkzfqhHlvEjhqIcCE9u8X80uWGDPicRAowJJs6j9P0tKEUqrc5DEm1S/HecyYaUh30q3e1B068HW9IyW7CHeW8wnewjKQ+bo4mEh0=\",\"msgtime\":\"2026-03-23 14:48:51.206\",\"msgid\":\"144820264982\",\"channelName\":\"CBSSurpriseCashVerChannel\",\"http_statusCode\":200,\"status\":\"01\",\"errorMsg\":\"Product service response is invalid.\"}"
+2026-03-23 14:48:51.609 +05:30 [INF] Data   ==> {"data":"Pls Pass the AuthorizationHeader","msgrrn":"2bd4811bb899ed7700fd72b84b5c15dd e17410eab0672c27b2b2cc0d25f68eb5 c3bw06BkzfqhHlvEjhqIcCE9u8X80uWGDPicRAowJJs6j9P0tKEUqrc5DEm1S/HecyYaUh30q3e1B068HW9IyW7CHeW8wnewjKQ+bo4mEh0=","msgtime":"2026-03-23 14:48:51.206","msgid":"144820264982","channelName":"CBSSurpriseCashVerChannel","http_statusCode":200,"status":"01","errorMsg":"Product service response is invalid."}
+2026-03-23 14:48:51.613 +05:30 [INF] Status is: 01
+2026-03-23 14:48:51.613 +05:30 [INF] Error from APIM: Product service response is invalid. and Status is: 01
+2026-03-23 14:48:51.614 +05:30 [INF] Executed action method Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetDenominationsCashDetails (Surprise_Cash_Verification), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1857.0566ms.
+2026-03-23 14:48:51.614 +05:30 [INF] Executing JsonResult, writing value of type 'Surprise_Cash_Verification.Models.Response`1[[Surprise_Cash_Verification.Models.CashDetails, Surprise_Cash_Verification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-23 14:48:51.619 +05:30 [INF] Executed action Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetDenominationsCashDetails (Surprise_Cash_Verification) in 1881.2303ms
+2026-03-23 14:48:51.620 +05:30 [INF] Executed endpoint 'Surprise_Cash_Verification.Controllers.SurpriseCashVerificationController.GetDenominationsCashDetails (Surprise_Cash_Verification)'
+2026-03-23 14:48:51.620 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:7117/api/SurpriseCashVerification/GetDenominationsCashDetails - 200 null application/json; charset=utf-8 1887.8305ms
