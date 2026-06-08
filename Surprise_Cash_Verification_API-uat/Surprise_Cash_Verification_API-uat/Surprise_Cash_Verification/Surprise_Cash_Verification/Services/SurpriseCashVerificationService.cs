@@ -1794,7 +1794,7 @@ namespace Surprise_Cash_Verification.Services
         public async Task<(bool IsSuccess, LOGIN_TYPE? organisations, string? Msg)> GetCOLogInAsync(string location, string emp_id)
         {
             logger?.LogInformation($"GetCOLogInAsync Service Started, Request Input location is: {location} and emp_id: {emp_id}");
-            var response = await dbContext.LOGIN_TYPE.FirstOrDefaultAsync(x => x.EMP_ID == emp_id && x.LOCATION == location);
+            var response = await dbContext.LOGIN_TYPE.FirstOrDefaultAsync(x => x.EMP_ID == emp_id);
             if (response is null)
             {
                 logger?.LogInformation($"GetCOLogInAsync Service response is null");
